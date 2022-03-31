@@ -20,6 +20,7 @@
   + 因為無法旋轉方向，目前只輸出0度的EDI到資料夾「0d」中。 
 + (4)製作測站資訊清單:
   + 不建議參考「Altitude[m]」欄位，因為無法確定是來自儀器記錄還是人為修改。一般使用上會用DEM資料建立模型，以模型高程取代該欄位。
+  + 「TWD97_E[m]」與「TWD97_N[m]」為二度分帶座標(TWD97)，中央經度為台灣本島(121度)。
   + 當時沒有正確紀錄的部分填入「null」值。
 
 |Index|SiteName       |Longitude[degrees]|Latitude[degrees]|Altitude[m]|TWD97_E[m]|TWD97_N[m]|Date|Loaction|Operator|Auditor|DievceName|DievceSN|
