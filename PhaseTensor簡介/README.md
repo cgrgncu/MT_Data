@@ -81,3 +81,53 @@ H_{x}\\
 H_{y}
 \end{bmatrix}
 $$
+
+### 阻抗張量實部矩陣定義(只看單一頻率時)
+
+$$
+\mathbf{X}=\begin{bmatrix}
+X_{xx}&X_{xy}\\ 
+X_{yx}&X_{yy} 
+\end{bmatrix}
+$$
+
+### 阻抗張量實部矩陣關係式(只看單一頻率時)
+
+$$
+\mathbf{X}=\operatorname{Re}\begin{Bmatrix}\mathbf{Z}\end{Bmatrix}
+$$
+
+$$
+\begin{bmatrix}
+X_{xx}&X_{xy}\\ 
+X_{yx}&X_{yy} 
+\end{bmatrix}=\begin{bmatrix}
+\operatorname{Re}\begin{Bmatrix}Z_{xx}\end{Bmatrix}&\operatorname{Re}\begin{Bmatrix}Z_{xy}\end{Bmatrix}\\ 
+\operatorname{Re}\begin{Bmatrix}Z_{yx}\end{Bmatrix}&\operatorname{Re}\begin{Bmatrix}Z_{yy}\end{Bmatrix} 
+\end{bmatrix}
+$$
+
+### 阻抗張量虛部矩陣定義(只看單一頻率時)
+
+$$
+\mathbf{Y}=\begin{bmatrix}
+Y_{xx}&Y_{xy}\\ 
+Y_{yx}&Y_{yy} 
+\end{bmatrix}
+$$
+
+### 阻抗張量虛部矩陣關係式(只看單一頻率時)
+
+$$
+\mathbf{Y}=\operatorname{Im}\begin{Bmatrix}\mathbf{Z}\end{Bmatrix}
+$$
+
+$$
+\begin{bmatrix}
+Y_{xx}&Y_{xy}\\ 
+Y_{yx}&Y_{yy} 
+\end{bmatrix}=\begin{bmatrix}
+\operatorname{Im}\begin{Bmatrix}Z_{xx}\end{Bmatrix}&\operatorname{Im}\begin{Bmatrix}Z_{xy}\end{Bmatrix}\\ 
+\operatorname{Im}\begin{Bmatrix}Z_{yx}\end{Bmatrix}&\operatorname{Im}\begin{Bmatrix}Z_{yy}\end{Bmatrix} 
+\end{bmatrix}
+$$
