@@ -44,4 +44,40 @@ Z_{yx}\left(f\right)&Z_{yy}\left(f\right)
 \end{bmatrix}
 $$
 
+### 關係式
 
+$$
+\mathbf{E}\left(f\right)=\mathbf{Z}\left(f\right)\mathbf{H}\left(f\right)
+$$
+
+$$
+\begin{bmatrix}
+E_{x}\left(f\right)\\ 
+E_{y}\left(f\right) 
+\end{bmatrix}=\begin{bmatrix}
+Z_{xx}\left(f\right)&Z_{xy}\left(f\right)\\ 
+Z_{yx}\left(f\right)&Z_{yy}\left(f\right) 
+\end{bmatrix}=\begin{bmatrix}
+H_{x}\left(f\right)\\ 
+H_{y}\left(f\right) 
+\end{bmatrix}
+$$
+
+### 關係式(只看單一頻率時)
+
+$$
+\mathbf{E}=\mathbf{Z}\mathbf{H}
+$$
+
+$$
+\begin{bmatrix}
+E_{x}\\ 
+E_{y} 
+\end{bmatrix}=\begin{bmatrix}
+Z_{xx}&Z_{xy}\\ 
+Z_{yx}&Z_{yy} 
+\end{bmatrix}=\begin{bmatrix}
+H_{x}\\ 
+H_{y}
+\end{bmatrix}
+$$
