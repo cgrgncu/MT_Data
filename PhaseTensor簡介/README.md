@@ -1,5 +1,7 @@
 # PhaseTensor簡介
-主要從程式設計的觀點說明相關數學公式
+主要從程式設計的觀點說明相關數學公式  
+> 作者: HsiupoYeh  
+> 更新日期: 2022-09-15  
 
 ### 參考資料
 + Caldwell, T. G., Bibby, H. M., & Brown, C. (2004). The magnetotelluric phase tensor. Geophysical Journal International, 158(2), 457-469.
@@ -246,9 +248,7 @@ X_{xx}Y_{yy}-X_{yx}Y_{xy}
 \mspace{36mu}\mspace{36mu}\text{(18)}
 $$
 
-```
-注意!計算上有可能存在分母為0，無法求取反矩陣的狀況。這樣的狀況下無法分析相位張量。
-```
+> 注意!計算上有可能存在分母為0，無法求取反矩陣的狀況。這樣的狀況下無法分析相位張量。
 
 #
 
@@ -457,10 +457,8 @@ $$
 \mspace{36mu}\mspace{36mu}\text{(21)}
 $$
 
-```
-實際上不會知道二維構造是哪一種，阻抗張量對角線元素都會是0。量測時是依照X朝北，Y朝東的方式去進行。  
-這裡只是想指出相位張量與阻抗張量的相位角度是有關連的。
-```
+> 實際上不會知道二維構造是哪一種，阻抗張量對角線元素都會是0。量測時是依照X朝北，Y朝東的方式去進行。  
+> 這裡只是想指出相位張量與阻抗張量的相位角度是有關連的。  
 
 #
 
@@ -471,9 +469,7 @@ $$
 \text{phase tensor invariants trace}=\Phi_{xx}+\Phi_{yy}
 \mspace{36mu}\mspace{36mu}\text{(22)}
 $$
-```
-參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
-```
+>參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
 
 + 相位張量的旋轉不變量「skew」:
 
@@ -481,9 +477,7 @@ $$
 \text{phase tensor invariants skew}=\Phi_{xy}-\Phi_{yx}
 \mspace{36mu}\mspace{36mu}\text{(23)}
 $$
-```
-參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
-```
+> 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
 
 + 相位張量的旋轉不變量「determinant」:
 
@@ -491,9 +485,7 @@ $$
 \text{phase tensor invariants determinant}=\Phi_{xx}\Phi_{yy}-\Phi_{xy}\Phi_{yx}
 \mspace{36mu}\mspace{36mu}\text{(24)}
 $$
-```
-參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
-```
+> 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
 
 + 相位張量的旋轉不變量「beta」，單位為[rad]:
 
@@ -503,9 +495,7 @@ $$
 \frac{1}{2}\arctan\left(\frac{\Phi_{xy}-\Phi_{yx}}{\Phi_{xx}+\Phi_{yy}}\right)
 \mspace{36mu}\mspace{36mu}\text{(25)}
 $$
-```
-參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
-```
+> 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
 
 + 相位張量的旋轉不變量「phimax」:
 
@@ -522,9 +512,7 @@ $$
 \right]^{1/2}
 \mspace{36mu}\mspace{36mu}\text{(26)}
 $$
-```
-參考 Bibby, H. M., Caldwell, T. G., & Brown, C. (2005).
-```
+> 參考 Bibby, H. M., Caldwell, T. G., & Brown, C. (2005).
 
 + 相位張量的旋轉不變量「phimin」:
 
@@ -541,14 +529,11 @@ $$
 \right]^{1/2}
 \mspace{36mu}\mspace{36mu}\text{(27)}
 $$
-```
-參考 Bibby, H. M., Caldwell, T. G., & Brown, C. (2005).
-```
+> 參考 Bibby, H. M., Caldwell, T. G., & Brown, C. (2005).
 
 #
 
 ### 相位張量的其他變量
-+ 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004). The magnetotelluric phase tensor. Geophysical Journal International, 158(2), 457-469.
 + 相位張量的變量「alpha」，單位為[rad]，與座標系統有關的變量:
 
 $$
@@ -557,6 +542,7 @@ $$
 \frac{1}{2}\arctan\left(\frac{\Phi_{xy}+\Phi_{yx}}{\Phi_{xx}-\Phi_{yy}}\right)
 \mspace{36mu}\mspace{36mu}\text{(28)}
 $$
+> 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
 
 #
 
@@ -568,6 +554,7 @@ $$
 \Phi_{max}
 \mspace{36mu}\mspace{36mu}\text{(29)}
 $$
+> 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
 
 + 橢圓半短軸b(semi-minor-b)，就是phimin。
 
@@ -576,6 +563,7 @@ $$
 \Phi_{min}
 \mspace{36mu}\mspace{36mu}\text{(30)}
 $$
+> 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
 
 + 橢圓旋轉角度theta(theta_in_degrees):
   + 旋轉角度值就是alpha-beta，使用時可將弧度轉成角度。
@@ -586,3 +574,7 @@ $$
 \alpha-\beta
 \mspace{36mu}\mspace{36mu}\text{(31)}
 $$
+> 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).  
+> 文章中座標軸是使用x1，x2。對應我這裡的座標軸x，y。
+
+#
