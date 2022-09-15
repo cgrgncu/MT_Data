@@ -19,7 +19,8 @@ $$
 \begin{bmatrix}
 E_{x}\left(f\right)\\ 
 E_{y}\left(f\right) 
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(1)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(1)}
 $$
 
 #
@@ -35,7 +36,8 @@ $$
 \begin{bmatrix}
 H_{x}\left(f\right)\\ 
 H_{y}\left(f\right) 
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(2)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(2)}
 $$
 
 #
@@ -50,14 +52,16 @@ $$
 \begin{bmatrix}
 Z_{xx}\left(f\right)&Z_{xy}\left(f\right)\\ 
 Z_{yx}\left(f\right)&Z_{yy}\left(f\right) 
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(3)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(3)}
 $$
 
 ### 關係式
 
 $$
 \mathbf{E}\left(f\right)=
-\mathbf{Z}\left(f\right)\mathbf{H}\left(f\right)\mspace{36mu}\mspace{36mu}\text{(4)}
+\mathbf{Z}\left(f\right)\mathbf{H}\left(f\right)
+\mspace{36mu}\mspace{36mu}\text{(4)}
 $$
 
 $$
@@ -72,14 +76,16 @@ Z_{yx}\left(f\right)&Z_{yy}\left(f\right)
 \begin{bmatrix}
 H_{x}\left(f\right)\\ 
 H_{y}\left(f\right) 
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(5)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(5)}
 $$
 
 ### 關係式(只看單一頻率時)
 
 $$
 \mathbf{E}=
-\mathbf{Z}\mathbf{H}\mspace{36mu}\mspace{36mu}\text{(6)}
+\mathbf{Z}\mathbf{H}
+\mspace{36mu}\mspace{36mu}\text{(6)}
 $$
 
 $$
@@ -94,7 +100,8 @@ Z_{yx}&Z_{yy}
 \begin{bmatrix}
 H_{x}\\ 
 H_{y}
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(7)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(7)}
 $$
 
 #
@@ -109,14 +116,16 @@ $$
 \begin{bmatrix}
 X_{xx}&X_{xy}\\ 
 X_{yx}&X_{yy} 
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(8)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(8)}
 $$
 
 ### 阻抗張量實部矩陣關係式(只看單一頻率時)
 
 $$
 \mathbf{X}=
-\operatorname{Re}\begin{Bmatrix}\mathbf{Z}\end{Bmatrix}\mspace{36mu}\mspace{36mu}\text{(9)}
+\operatorname{Re}\begin{Bmatrix}\mathbf{Z}\end{Bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(9)}
 $$
 
 $$
@@ -127,7 +136,8 @@ X_{yx}&X_{yy}
 \begin{bmatrix}
 \operatorname{Re}\begin{Bmatrix}Z_{xx}\end{Bmatrix}&\operatorname{Re}\begin{Bmatrix}Z_{xy}\end{Bmatrix}\\ 
 \operatorname{Re}\begin{Bmatrix}Z_{yx}\end{Bmatrix}&\operatorname{Re}\begin{Bmatrix}Z_{yy}\end{Bmatrix} 
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(10)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(10)}
 $$
 
 #
@@ -142,14 +152,16 @@ $$
 \begin{bmatrix}
 Y_{xx}&Y_{xy}\\ 
 Y_{yx}&Y_{yy} 
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(11)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(11)}
 $$
 
 ### 阻抗張量虛部矩陣關係式(只看單一頻率時)
 
 $$
 \mathbf{Y}=
-\operatorname{Im}\begin{Bmatrix}\mathbf{Z}\end{Bmatrix}\mspace{36mu}\mspace{36mu}\text{(12)}
+\operatorname{Im}\begin{Bmatrix}\mathbf{Z}\end{Bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(12)}
 $$
 
 $$
@@ -160,7 +172,8 @@ Y_{yx}&Y_{yy}
 \\begin{bmatrix}
 \operatorname{Im}\begin{Bmatrix}Z_{xx}\end{Bmatrix}&\operatorname{Im}\begin{Bmatrix}Z_{xy}\end{Bmatrix}\\ 
 \operatorname{Im}\begin{Bmatrix}Z_{yx}\end{Bmatrix}&\operatorname{Im}\begin{Bmatrix}Z_{yy}\end{Bmatrix} 
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(13)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(13)}
 $$
 
 #
@@ -174,13 +187,15 @@ $$
 \mathbf{\Phi}\left(f\right)=\begin{bmatrix}
 \Phi_{xx}\left(f\right)&\Phi_{xy}\left(f\right)\\ 
 \Phi_{yx}\left(f\right)&\Phi_{yy}\left(f\right) 
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(14)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(14)}
 $$
 
 ### 關係式
 
 $$
-\mathbf{\Phi}\left(f\right)=\mathbf{X}\left(f\right)^{-1}\mathbf{Y}\left(f\right)\mspace{36mu}\mspace{36mu}\text{(15)}
+\mathbf{\Phi}\left(f\right)=\mathbf{X}\left(f\right)^{-1}\mathbf{Y}\left(f\right)
+\mspace{36mu}\mspace{36mu}\text{(15)}
 $$
 
 $$
@@ -199,13 +214,15 @@ X_{yy}\left(f\right)Y_{xx}\left(f\right)-X_{xy}\left(f\right)Y_{yx}\left(f\right
 X_{yy}\left(f\right)Y_{xy}\left(f\right)-X_{xy}\left(f\right)Y_{yy}\left(f\right)\\ 
 X_{xx}\left(f\right)Y_{yx}\left(f\right)-X_{yx}\left(f\right)Y_{xx}\left(f\right)&
 X_{xx}\left(f\right)Y_{yy}\left(f\right)-X_{yx}\left(f\right)Y_{xy}\left(f\right)
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(16)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(16)}
 $$
 
 ### 關係式(只看單一頻率時)
 
 $$
-\mathbf{\Phi}=\mathbf{X}^{-1}\mathbf{Y}\mspace{36mu}\mspace{36mu}\text{(17)}
+\mathbf{\Phi}=\mathbf{X}^{-1}\mathbf{Y}
+\mspace{36mu}\mspace{36mu}\text{(17)}
 $$
   
   
@@ -225,7 +242,8 @@ X_{yy}Y_{xx}-X_{xy}Y_{yx}&
 X_{yy}Y_{xy}-X_{xy}Y_{yy}\\ 
 X_{xx}Y_{yx}-X_{yx}Y_{xx}&
 X_{xx}Y_{yy}-X_{yx}Y_{xy}
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(18)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(18)}
 $$
 
 ```
@@ -247,7 +265,8 @@ Z_{yx}&Z_{yy}
 \begin{bmatrix}
 0&Z_{xy}\\ 
 Z_{yx}&0
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(19)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(19)}
 $$
 
 + 其相位張量為:
@@ -333,7 +352,8 @@ $$
 \begin{bmatrix}
 \arg\left(Z_{yx}\right)&0\\ 
 0&\arg\left(Z_{xy}\right)
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(20)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(20)}
 $$
 
 + 當存在一個二維構造，其構造走向為方位角90度或270度時(不是常用的假設)，阻抗張量量測時x方向朝正北，y方向朝正東。此時阻抗張量為:
@@ -433,9 +453,9 @@ $$
 \begin{bmatrix}
 \arg\left(Z_{yx}\right)&0\\ 
 0&\arg\left(Z_{xy}\right)
-\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(21)}
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(21)}
 $$
-
 
 ```
 實際上不會知道二維構造是哪一種，阻抗張量對角線元素都會是0。量測時是依照X朝北，Y朝東的方式去進行。  
@@ -445,7 +465,124 @@ $$
 #
 
 ### 相位張量的旋轉不變量
++ 相位張量的旋轉不變量「trace」:
+
+$$
+\text{phase tensor invariants trace}=\Phi_{xx}+\Phi_{yy}
+\mspace{36mu}\mspace{36mu}\text{(22)}
+$$
+```
+參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
+```
+
++ 相位張量的旋轉不變量「skew」:
+
+$$
+\text{phase tensor invariants skew}=\Phi_{xy}-\Phi_{yx}
+\mspace{36mu}\mspace{36mu}\text{(23)}
+$$
+```
+參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
+```
+
++ 相位張量的旋轉不變量「determinant」:
+
+$$
+\text{phase tensor invariants determinant}=\Phi_{xx}\Phi_{yy}-\Phi_{xy}\Phi_{yx}
+\mspace{36mu}\mspace{36mu}\text{(24)}
+$$
+```
+參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
+```
+
++ 相位張量的旋轉不變量「beta」，單位為[rad]:
+
+$$
+\text{phase tensor invariants beta}=
+\beta=
+\frac{1}{2}\arctan\left(\frac{\Phi_{xy}-\Phi_{yx}}{\Phi_{xx}+\Phi_{yy}}\right)
+\mspace{36mu}\mspace{36mu}\text{(25)}
+$$
+```
+參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
+```
+
++ 相位張量的旋轉不變量「phimax」:
+
+$$
+\text{phase tensor invariants phimax}=
+\Phi_{max}=
+\frac{1}{2}
+\left[
+\left(\Phi_{xx}+\Phi_{yy}\right)^{2}+\left(\Phi_{xy}-\Phi_{yx}\right)^{2}
+\right]^{1/2}+
+\frac{1}{2}
+\left[
+\left(\Phi_{xx}-\Phi_{yy}\right)^{2}+\left(\Phi_{xy}+\Phi_{yx}\right)^{2}
+\right]^{1/2}
+\mspace{36mu}\mspace{36mu}\text{(26)}
+$$
+```
+參考 Bibby, H. M., Caldwell, T. G., & Brown, C. (2005).
+```
+
++ 相位張量的旋轉不變量「phimin」:
+
+$$
+\text{phase tensor invariants phimin}=
+\Phi_{min}=
+\frac{1}{2}
+\left[
+\left(\Phi_{xx}+\Phi_{yy}\right)^{2}+\left(\Phi_{xy}-\Phi_{yx}\right)^{2}
+\right]^{1/2}-
+\frac{1}{2}
+\left[
+\left(\Phi_{xx}-\Phi_{yy}\right)^{2}+\left(\Phi_{xy}+\Phi_{yx}\right)^{2}
+\right]^{1/2}
+\mspace{36mu}\mspace{36mu}\text{(27)}
+$$
+```
+參考 Bibby, H. M., Caldwell, T. G., & Brown, C. (2005).
+```
+
+#
+
+### 相位張量的其他變量
 + 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004). The magnetotelluric phase tensor. Geophysical Journal International, 158(2), 457-469.
-+ 相位張量的旋轉不變量「trace］:
-+ 相位張量的旋轉不變量「skew］:
-+ 相位張量的旋轉不變量「deter］:
++ 相位張量的變量「alpha」，單位為[rad]，與座標系統有關的變量:
+
+$$
+\text{phase tensor alpha}=
+\alpha=
+\frac{1}{2}\arctan\left(\frac{\Phi_{xy}+\Phi_{yx}}{\Phi_{xx}-\Phi_{yy}}\right)
+\mspace{36mu}\mspace{36mu}\text{(28)}
+$$
+
+#
+
+### 繪圖用的橢圓參數
++ 橢圓半長軸a(semi-major-a)，就是phimax。
+
+$$
+\text{phase tensor ellipse semi major a}=
+\Phi_{max}
+\mspace{36mu}\mspace{36mu}\text{(29)}
+$$
+
++ 橢圓半短軸b(semi-minor-b)，就是phimin。
+
+$$
+\text{phase tensor ellipse semi minor b}=
+\Phi_{min}
+\mspace{36mu}\mspace{36mu}\text{(30)}
+$$
+
++ 橢圓旋轉角度theta(theta_in_degrees):
+  + 旋轉角度值就是alpha-beta，使用時可將弧度轉成角度。
+  + 若要繪製在地理系統上，參考座標x朝北，y朝東，則角度正向為北往東增加(順時鐘為正)，也就是方位角(Azimuth)的定義。
+  
+$$
+\text{phase tensor ellipse angle theta}=
+\alpha-\beta
+\mspace{36mu}\mspace{36mu}\text{(31)}
+$$
