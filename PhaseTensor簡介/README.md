@@ -228,6 +228,10 @@ X_{xx}Y_{yy}-X_{yx}Y_{xy}
 \end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(18)}
 $$
 
+```
+注意!計算上有可能存在分母為0，無法求取反矩陣的狀況。這樣的狀況下無法分析相位張量。
+```
+
 #
 
 ### 二維狀況下的特殊情形(只看單一頻率)
@@ -437,3 +441,11 @@ $$
 實際上不會知道二維構造是哪一種，阻抗張量對角線元素都會是0。量測時是依照X朝北，Y朝東的方式去進行。  
 這裡只是想指出相位張量與阻抗張量的相位角度是有關連的。
 ```
+
+#
+
+### 相位張量的旋轉不變量
++ 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004). The magnetotelluric phase tensor. Geophysical Journal International, 158(2), 457-469.
++ 相位張量的旋轉不變量「trace］:
++ 相位張量的旋轉不變量「skew］:
++ 相位張量的旋轉不變量「deter］:
