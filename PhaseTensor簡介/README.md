@@ -19,7 +19,7 @@ $$
 \begin{bmatrix}
 E_{x}\left(f\right)\\ 
 E_{y}\left(f\right) 
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(1)}
 $$
 
 #
@@ -35,7 +35,7 @@ $$
 \begin{bmatrix}
 H_{x}\left(f\right)\\ 
 H_{y}\left(f\right) 
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(2)}
 $$
 
 #
@@ -50,14 +50,14 @@ $$
 \begin{bmatrix}
 Z_{xx}\left(f\right)&Z_{xy}\left(f\right)\\ 
 Z_{yx}\left(f\right)&Z_{yy}\left(f\right) 
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(3)}
 $$
 
 ### 關係式
 
 $$
 \mathbf{E}\left(f\right)=
-\mathbf{Z}\left(f\right)\mathbf{H}\left(f\right)
+\mathbf{Z}\left(f\right)\mathbf{H}\left(f\right)\mspace{36mu}\mspace{36mu}\text{(4)}
 $$
 
 $$
@@ -72,14 +72,14 @@ Z_{yx}\left(f\right)&Z_{yy}\left(f\right)
 \begin{bmatrix}
 H_{x}\left(f\right)\\ 
 H_{y}\left(f\right) 
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(5)}
 $$
 
 ### 關係式(只看單一頻率時)
 
 $$
 \mathbf{E}=
-\mathbf{Z}\mathbf{H}
+\mathbf{Z}\mathbf{H}\mspace{36mu}\mspace{36mu}\text{(6)}
 $$
 
 $$
@@ -94,7 +94,7 @@ Z_{yx}&Z_{yy}
 \begin{bmatrix}
 H_{x}\\ 
 H_{y}
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(7)}
 $$
 
 #
@@ -109,14 +109,14 @@ $$
 \begin{bmatrix}
 X_{xx}&X_{xy}\\ 
 X_{yx}&X_{yy} 
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(8)}
 $$
 
 ### 阻抗張量實部矩陣關係式(只看單一頻率時)
 
 $$
 \mathbf{X}=
-\operatorname{Re}\begin{Bmatrix}\mathbf{Z}\end{Bmatrix}
+\operatorname{Re}\begin{Bmatrix}\mathbf{Z}\end{Bmatrix}\mspace{36mu}\mspace{36mu}\text{(9)}
 $$
 
 $$
@@ -127,7 +127,7 @@ X_{yx}&X_{yy}
 \begin{bmatrix}
 \operatorname{Re}\begin{Bmatrix}Z_{xx}\end{Bmatrix}&\operatorname{Re}\begin{Bmatrix}Z_{xy}\end{Bmatrix}\\ 
 \operatorname{Re}\begin{Bmatrix}Z_{yx}\end{Bmatrix}&\operatorname{Re}\begin{Bmatrix}Z_{yy}\end{Bmatrix} 
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(10)}
 $$
 
 #
@@ -142,14 +142,14 @@ $$
 \begin{bmatrix}
 Y_{xx}&Y_{xy}\\ 
 Y_{yx}&Y_{yy} 
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(11)}
 $$
 
 ### 阻抗張量虛部矩陣關係式(只看單一頻率時)
 
 $$
 \mathbf{Y}=
-\operatorname{Im}\begin{Bmatrix}\mathbf{Z}\end{Bmatrix}
+\operatorname{Im}\begin{Bmatrix}\mathbf{Z}\end{Bmatrix}\mspace{36mu}\mspace{36mu}\text{(12)}
 $$
 
 $$
@@ -160,7 +160,7 @@ Y_{yx}&Y_{yy}
 \\begin{bmatrix}
 \operatorname{Im}\begin{Bmatrix}Z_{xx}\end{Bmatrix}&\operatorname{Im}\begin{Bmatrix}Z_{xy}\end{Bmatrix}\\ 
 \operatorname{Im}\begin{Bmatrix}Z_{yx}\end{Bmatrix}&\operatorname{Im}\begin{Bmatrix}Z_{yy}\end{Bmatrix} 
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(13)}
 $$
 
 #
@@ -174,13 +174,13 @@ $$
 \mathbf{\Phi}\left(f\right)=\begin{bmatrix}
 \Phi_{xx}\left(f\right)&\Phi_{xy}\left(f\right)\\ 
 \Phi_{yx}\left(f\right)&\Phi_{yy}\left(f\right) 
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(14)}
 $$
 
 ### 關係式
 
 $$
-\mathbf{\Phi}\left(f\right)=\mathbf{X}\left(f\right)^{-1}\mathbf{Y}\left(f\right)
+\mathbf{\Phi}\left(f\right)=\mathbf{X}\left(f\right)^{-1}\mathbf{Y}\left(f\right)\mspace{36mu}\mspace{36mu}\text{(15)}
 $$
 
 $$
@@ -199,15 +199,16 @@ X_{yy}\left(f\right)Y_{xx}\left(f\right)-X_{xy}\left(f\right)Y_{yx}\left(f\right
 X_{yy}\left(f\right)Y_{xy}\left(f\right)-X_{xy}\left(f\right)Y_{yy}\left(f\right)\\ 
 X_{xx}\left(f\right)Y_{yx}\left(f\right)-X_{yx}\left(f\right)Y_{xx}\left(f\right)&
 X_{xx}\left(f\right)Y_{yy}\left(f\right)-X_{yx}\left(f\right)Y_{xy}\left(f\right)
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(16)}
 $$
 
 ### 關係式(只看單一頻率時)
 
 $$
-\mathbf{\Phi}=\mathbf{X}^{-1}\mathbf{Y}
+\mathbf{\Phi}=\mathbf{X}^{-1}\mathbf{Y}\mspace{36mu}\mspace{36mu}\text{(17)}
 $$
-
+  
+  
 $$
 \begin{bmatrix}
 \Phi_{xx}&\Phi_{xy}\\ 
@@ -224,7 +225,7 @@ X_{yy}Y_{xx}-X_{xy}Y_{yx}&
 X_{yy}Y_{xy}-X_{xy}Y_{yy}\\ 
 X_{xx}Y_{yx}-X_{yx}Y_{xx}&
 X_{xx}Y_{yy}-X_{yx}Y_{xy}
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(18)}
 $$
 
 #
@@ -242,7 +243,7 @@ Z_{yx}&Z_{yy}
 \begin{bmatrix}
 0&Z_{xy}\\ 
 Z_{yx}&0
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(19)}
 $$
 
 + 其相位張量為:
@@ -328,7 +329,7 @@ $$
 \begin{bmatrix}
 \arg\left(Z_{yx}\right)&0\\ 
 0&\arg\left(Z_{xy}\right)
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(20)}
 $$
 
 + 當存在一個二維構造，其構造走向為方位角90度或270度時(不是常用的假設)，阻抗張量量測時x方向朝正北，y方向朝正東。此時阻抗張量為:
@@ -428,7 +429,7 @@ $$
 \begin{bmatrix}
 \arg\left(Z_{yx}\right)&0\\ 
 0&\arg\left(Z_{xy}\right)
-\end{bmatrix}
+\end{bmatrix}\mspace{36mu}\mspace{36mu}\text{(21)}
 $$
 
 
