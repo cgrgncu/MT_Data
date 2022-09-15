@@ -238,14 +238,6 @@ $$
 \begin{bmatrix}
 0&Z_{xy}\\ 
 Z_{yx}&0
-\end{bmatrix}=
-\begin{bmatrix}
-0&Z_{TE}\\ 
-Z_{TM}&0
-\end{bmatrix}=
-\begin{bmatrix}
-0&Z_{\parallel}\\  
-Z_{\perp}&0
 \end{bmatrix}
 $$
 
@@ -256,14 +248,6 @@ $$
 \begin{bmatrix}
 0&Z_{xy}\\ 
 Z_{yx}&0
-\end{bmatrix}=
-\begin{bmatrix}
-0&Z_{TM}\\ 
-Z_{TE}&0
-\end{bmatrix}=
-\begin{bmatrix}
-0&Z_{\perp}\\  
-Z_{\parallel}&0
 \end{bmatrix}
 $$
 
