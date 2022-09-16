@@ -348,10 +348,6 @@ $$
 \begin{bmatrix}
 \tan\left(\phi_{yx}\right)&0\\ 
 0&\tan\left(\phi_{xy}\right)
-\end{bmatrix}=
-\begin{bmatrix}
-\arg\left(Z_{yx}\right)&0\\ 
-0&\arg\left(Z_{xy}\right)
 \end{bmatrix}
 \mspace{36mu}\mspace{36mu}\text{(20)}
 $$
@@ -449,10 +445,6 @@ $$
 \begin{bmatrix}
 \tan\left(\phi_{yx}\right)&0\\ 
 0&\tan\left(\phi_{xy}\right)
-\end{bmatrix}=
-\begin{bmatrix}
-\arg\left(Z_{yx}\right)&0\\ 
-0&\arg\left(Z_{xy}\right)
 \end{bmatrix}
 \mspace{36mu}\mspace{36mu}\text{(21)}
 $$
@@ -554,7 +546,8 @@ $$
 \Phi_{max}
 \mspace{36mu}\mspace{36mu}\text{(29)}
 $$
-> 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
+> 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).  
+> 因式(22)，在mtpy中也計算phimax的角度arctan(phimax)。
 
 + 橢圓半短軸b(semi-minor-b)，就是phimin。
 
@@ -563,7 +556,8 @@ $$
 \Phi_{min}
 \mspace{36mu}\mspace{36mu}\text{(30)}
 $$
-> 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).
+> 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).  
+> 因式(22)，在mtpy中也計算phimin的角度arctan(phimin)。
 
 + 橢圓旋轉角度theta(theta_in_degrees):
   + 旋轉角度值就是alpha-beta，使用時可將弧度轉成角度。
