@@ -584,13 +584,13 @@ $$
 $$
 > 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).  
 
-+ 因式(22)，在mtpy中計算phimax的角度arctan(phimax)單位[rad]，轉換成角度後來繪圖。
++ 因式(22)，在mtpy中計算phimin的角度arctan(phimin)單位[rad]，轉換成角度後來繪圖。
 
 $$
-\text{phase tensor ellipse semi major a}=
-arctan\left(\Phi_{max}\right)=
-\phi_{max}=
-\text{phase tensor phimax angle}
+\text{phase tensor ellipse semi minor b}=
+arctan\left(\Phi_{min}\right)=
+\phi_{min}=
+\text{phase tensor phimin angle}
 \mspace{36mu}\mspace{36mu}\text{(32)}
 $$
 > 不太清楚原因，但原始碼註解掉本文的式(31)，改用式(32)。所以我就跟著算。 
