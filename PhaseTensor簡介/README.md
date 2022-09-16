@@ -1,7 +1,7 @@
 # PhaseTensor簡介
 以程式設計的實作為目的，整理相關數學公式。  
 > 作者: HsiupoYeh  
-> 更新日期: 2022-09-15  
+> 更新日期: 2022-09-17  
 
 ### 參考資料
 + Caldwell, T. G., Bibby, H. M., & Brown, C. (2004). The magnetotelluric phase tensor. Geophysical Journal International, 158(2), 457-469.
