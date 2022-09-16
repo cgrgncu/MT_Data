@@ -546,18 +546,39 @@ $$
 \Phi_{max}
 \mspace{36mu}\mspace{36mu}\text{(29)}
 $$
+
 > 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).  
-> 因式(22)，在mtpy中也計算phimax的角度arctan(phimax)。
+
++ 因式(22)，在mtpy中計算phimax的角度arctan(phimax)單位[rad]，轉換成角度後來繪圖。
+
+$$
+\text{phase tensor ellipse semi major a}=
+arctan\left(\Phi_{max}\right)=
+\phi_{max}=
+\text{phase tensor phimax angle}
+\mspace{36mu}\mspace{36mu}\text{(30)}
+$$
+> 不太清楚原因，但原始碼註解掉本文的式(29)，改用式(30)。所以我就跟著算。  
 
 + 橢圓半短軸b(semi-minor-b)，就是phimin。
 
 $$
 \text{phase tensor ellipse semi minor b}=
 \Phi_{min}
-\mspace{36mu}\mspace{36mu}\text{(30)}
+\mspace{36mu}\mspace{36mu}\text{(31)}
 $$
 > 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).  
-> 因式(22)，在mtpy中也計算phimin的角度arctan(phimin)。
+
++ 因式(22)，在mtpy中計算phimax的角度arctan(phimax)單位[rad]，轉換成角度後來繪圖。
+
+$$
+\text{phase tensor ellipse semi major a}=
+arctan\left(\Phi_{max}\right)=
+\phi_{max}=
+\text{phase tensor phimax angle}
+\mspace{36mu}\mspace{36mu}\text{(32)}
+$$
+> 不太清楚原因，但原始碼註解掉本文的式(31)，改用式(32)。所以我就跟著算。 
 
 + 橢圓旋轉角度theta(theta_in_degrees):
   + 旋轉角度值就是alpha-beta，使用時可將弧度轉成角度。
