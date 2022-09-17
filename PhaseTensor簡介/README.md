@@ -596,7 +596,7 @@ arctan\left(\Phi_{min}\right)=
 $$
 > 不太清楚原因，但原始碼註解掉本文的式(31)，改用式(32)。所以我就跟著算。 
 
-+ 橢圓旋轉角度theta(theta_in_degrees):
++ 橢圓旋轉角度azimuth(azimuth_in_degrees):
   + 旋轉角度值就是alpha-beta，使用時可將弧度轉成角度。
   + 若要繪製在地理系統上，參考座標x朝北，y朝東，則角度正向為北往東增加(順時鐘為正)，也就是方位角(Azimuth)的定義。
   
