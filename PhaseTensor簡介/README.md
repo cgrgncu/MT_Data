@@ -603,7 +603,7 @@ $$
 $$
 \text{phase tensor ellipse azimuth angle}=
 \alpha-\beta
-\mspace{36mu}\mspace{36mu}\text{(31)}
+\mspace{36mu}\mspace{36mu}\text{(33)}
 $$
 
 > 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).  
