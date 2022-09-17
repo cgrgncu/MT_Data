@@ -601,10 +601,11 @@ $$
   + 若要繪製在地理系統上，參考座標x朝北，y朝東，則角度正向為北往東增加(順時鐘為正)，也就是方位角(Azimuth)的定義。
   
 $$
-\text{phase tensor ellipse angle theta}=
+\text{phase tensor ellipse azimuth angle}=
 \alpha-\beta
 \mspace{36mu}\mspace{36mu}\text{(31)}
 $$
+
 > 參考 Caldwell, T. G., Bibby, H. M., & Brown, C. (2004).  
 > 文章中座標軸是使用x1，x2。對應我這裡的座標軸x，y。
 
