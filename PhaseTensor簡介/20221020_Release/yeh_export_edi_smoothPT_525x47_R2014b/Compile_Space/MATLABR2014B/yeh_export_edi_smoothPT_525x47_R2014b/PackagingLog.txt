@@ -1,0 +1,23 @@
+ant:
+<ant>
+  <mkdir dir="C:\yeh_export_edi_smoothPT_525x47_R2014b\Compile_Space\MATLABR2014B\yeh_export_edi_smoothPT_525x47_R2014b\for_redistribution" />
+  <mkdir dir="C:\yeh_export_edi_smoothPT_525x47_R2014b\Compile_Space\MATLABR2014B\yeh_export_edi_smoothPT_525x47_R2014b\for_testing" />
+  <mkdir dir="C:\yeh_export_edi_smoothPT_525x47_R2014b\Compile_Space\MATLABR2014B\yeh_export_edi_smoothPT_525x47_R2014b\for_redistribution_files_only" />
+</ant>
+mcc -C -o yeh_export_edi_smoothPT_525x47_R2014b -W main:yeh_export_edi_smoothPT_525x47_R2014b -T link:exe -d C:\yeh_export_edi_smoothPT_525x47_R2014b\Compile_Space\MATLABR2014B\yeh_export_edi_smoothPT_525x47_R2014b\for_testing -v C:\yeh_export_edi_smoothPT_525x47_R2014b\Compile_Space\MATLABR2014B\yeh_export_edi_smoothPT_525x47_R2014b.m 
+Compiler version: 5.2 (R2014b)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path
+"C:\yeh_export_edi_smoothPT_525x47_R2014b\Compile_Space\MATLABR2014B" to
+Compiler path instance.] 
+Parsing file "C:\yeh_export_edi_smoothPT_525x47_R2014b\Compile_Space\MATLABR2014B\yeh_export_edi_smoothPT_525x47_R2014b.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "C:\yeh_export_edi_smoothPT_525x47_R2014b\Compile_Space\MATLABR2014B\yeh_export_edi_smoothPT_525x47_R2014b\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\yeh_export_edi_smoothPT_525x47_R2014b\Compile_Space\MATLABR2014B\yeh_export_edi_smoothPT_525x47_R2014b_resources\icon.ico to C:\yeh_export_edi_smoothPT_525x47_R2014b\Compile_Space\MATLABR2014B\yeh_export_edi_smoothPT_525x47_R2014b\for_testing\yeh_export_edi_smoothPT_525x47_R2014b.exe.
+Attempting to embed the CTF archive into the application C:\yeh_export_edi_smoothPT_525x47_R2014b\Compile_Space\MATLABR2014B\yeh_export_edi_smoothPT_525x47_R2014b\for_testing\yeh_export_edi_smoothPT_525x47_R2014b.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\yeh_export_edi_smoothPT_525x47_R2014b\Compile_Space\MATLABR2014B\yeh_export_edi_smoothPT_525x47_R2014b\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
