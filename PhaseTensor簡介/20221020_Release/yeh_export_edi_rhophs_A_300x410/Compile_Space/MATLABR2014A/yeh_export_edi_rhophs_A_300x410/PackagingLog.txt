@@ -1,0 +1,26 @@
+ant:
+<ant>
+  <mkdir dir="C:\yeh_export_edi_rhophs_A_300x410\Compile_Space\MATLABR2014A\yeh_export_edi_rhophs_A_300x410\for_redistribution" />
+  <mkdir dir="C:\yeh_export_edi_rhophs_A_300x410\Compile_Space\MATLABR2014A\yeh_export_edi_rhophs_A_300x410\for_testing" />
+</ant>
+mcc -C -o yeh_export_edi_rhophs_A_300x410 -W main:yeh_export_edi_rhophs_A_300x410 -T link:exe -d C:\yeh_export_edi_rhophs_A_300x410\Compile_Space\MATLABR2014A\yeh_export_edi_rhophs_A_300x410\for_testing -v C:\yeh_export_edi_rhophs_A_300x410\Compile_Space\MATLABR2014A\yeh_export_edi_rhophs_A_300x410.m 
+Compiler version: 5.1 (R2014a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path
+"C:\yeh_export_edi_rhophs_A_300x410\Compile_Space\MATLABR2014A" to Compiler
+path instance.] 
+Parsing file "C:\yeh_export_edi_rhophs_A_300x410\Compile_Space\MATLABR2014A\yeh_export_edi_rhophs_A_300x410.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\deployprint.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\printdlg.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "C:\yeh_export_edi_rhophs_A_300x410\Compile_Space\MATLABR2014A\yeh_export_edi_rhophs_A_300x410\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\yeh_export_edi_rhophs_A_300x410\Compile_Space\MATLABR2014A\yeh_export_edi_rhophs_A_300x410_resources\icon.ico to C:\yeh_export_edi_rhophs_A_300x410\Compile_Space\MATLABR2014A\yeh_export_edi_rhophs_A_300x410\for_testing\yeh_export_edi_rhophs_A_300x410.exe.
+Attempting to embed the CTF archive into the application C:\yeh_export_edi_rhophs_A_300x410\Compile_Space\MATLABR2014A\yeh_export_edi_rhophs_A_300x410\for_testing\yeh_export_edi_rhophs_A_300x410.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\yeh_export_edi_rhophs_A_300x410\Compile_Space\MATLABR2014A\yeh_export_edi_rhophs_A_300x410\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
