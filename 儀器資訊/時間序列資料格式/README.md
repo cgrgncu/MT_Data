@@ -21,4 +21,7 @@
 + MTU-2C : 24K[SPS]
 + MTU-5D : 96K[SPS]
 
-###
+### SD卡中的存放位置
++ 「recdata」資料夾中
+
+
