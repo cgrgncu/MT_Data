@@ -61,6 +61,57 @@
         + 它是GPS原子時鐘，它的時間基準是1980年1月6日0時0分0秒與世界協調時刻UTC相一致，以後按原子時鐘秒長累積計時。
         + GPS時間不做潤秒調整。GPS時間跟UTC時間之差為秒的整倍數。例如：1989年為5秒，1996年為11秒，2002年為13秒，到現在2020年08月為止為18秒。
       ```
+      ```matlab
+      %**************************************************************************
+      %   Name: yeh_PHOENIX_GPS_timestamp_to_datestr_example_v20221226a.m 
+      %   Copyright:  
+      %   Author: HsiupoYeh 
+      %   Version: v20221226a
+      %   Description: 將MTU-5C的GPS時間戳轉為時間文字的範例。
+      %                經過測試可用於MATLAB R2009a版本。
+      %**************************************************************************
+      clear;clc;close all
+      %==========================================================================
+          %----------------------------------------------------------------------
+      Input_AAAAA_BBBBBBBB_C_DDDDDDDD_bin_str='10421_63366CDB_0_0000000A.bin';
+          disp(['紀錄檔案名稱: ',Input_AAAAA_BBBBBBBB_C_DDDDDDDD_bin_str])
+          % 紀錄檔案名稱: 10421_63366CDB_0_0000000A.bin
+          %--
+          Input_AAAAA_part_str=Input_AAAAA_BBBBBBBB_C_DDDDDDDD_bin_str(1:5);
+          disp(['「AAAAA」部分: ',Input_AAAAA_part_str])
+          % 「AAAAA」部分: 10421
+          %--
+          Input_BBBBBBBB_part_str=Input_AAAAA_BBBBBBBB_C_DDDDDDDD_bin_str(7:14);
+          disp(['「BBBBBBBB」部分: ',Input_BBBBBBBB_part_str])
+          % 「BBBBBBBB」部分: 63366CDB
+          %--
+          Input_C_part_str=Input_AAAAA_BBBBBBBB_C_DDDDDDDD_bin_str(16:16);
+          disp(['「C」部分: ',Input_C_part_str])
+          % 「C」部分: 0
+          %--
+          Input_DDDDDDDD_part_str=Input_AAAAA_BBBBBBBB_C_DDDDDDDD_bin_str(18:25);
+          disp(['「DDDDDDDD」部分: ',Input_DDDDDDDD_part_str])
+          % 「DDDDDDDD」部分: 0000000A
+          %----------------------------------------------------------------------
+          % 計算日期
+          %--
+          % UNIX時間起點
+          JulianDate_datetime=datenum(1970,1,1,0,0,0);
+          %--
+          % 經過時間秒數
+          elapsed_time_in_seconds=hex2dec(Input_BBBBBBBB_part_str);
+          %--
+          % 計算GPS +00:00時間
+          GPS_date_str=datestr(JulianDate_datetime+elapsed_time_in_seconds/86400,'yyyy-mm-dd HH:MM:SS');
+          disp([GPS_date_str,' (GPS +00:00)'])
+          % 2022-09-30 04:13:15 (GPS +00:00)
+          %--
+          % 計算GPS +08:00時間
+          GPS_date_plus8_str=datestr(JulianDate_datetime+elapsed_time_in_seconds/86400+3600*8/86400,'yyyy-mm-dd HH:MM:SS');
+          disp([GPS_date_plus8_str,' (GPS +08:00)'])
+          % 2022-09-30 12:13:15 (GPS +08:00)
+          %----------------------------------------------------------------------
+      ```
   + C為1個數字，做為頻道代號ID，從0開始。與所在紀錄資料夾相同數字，例如:「0」、「1」、「2」、「3」、「4」。通常是指:「H2(Hy)」、「E1(Ex)」、「H1(Hx)」、「H3(Hz)」、「E2(Ey)」。
   + DDDDDDDD為8個英數字，為32位元無號數十六進制標籤，紀錄器每一段時間將資料儲存為一個檔案，此標籤為該檔案的索引。每個檔案每分鐘都在儲存一次，此索引值的極限設計為可以儲存8100年的連續數據。目前儲存每分鐘一次這個週期是固定的，未來可能改動為可以規劃設定的。
   
