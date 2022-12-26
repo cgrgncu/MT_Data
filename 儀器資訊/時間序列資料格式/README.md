@@ -38,4 +38,7 @@
   + 「stats」檔案: 儲存記錄檔案的統計資訊。目前是屬於實驗性的功能??
   + 「executor.log」檔案: 儲存運行中的特殊事件紀錄。
 
-### 123
+### 連續型時間序列資料格式(format of continuous time series)
++ 命名方式: AAAAA_BBBBBBBB_C_DDDDDDDD.bin
+  + XXXXX為五個數字，代表儀器序號，例如: 12345 。
+  + BBBBBBBB為32位元無號數十六進制標籤，表示記錄開始時間的GPS時間戳，與序列號一起構成記錄的唯一ID。
