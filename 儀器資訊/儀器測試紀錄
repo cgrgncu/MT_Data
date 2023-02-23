@@ -1,0 +1,7 @@
+# 儀器測試使用的心得
+
+### 準備SD卡
++ 注意格式必須為exFAT，容量介於64[GB]至256[GB]
+  + REF: DAA24 - System Troubleshooting - 220914.pdf
++ MTU-5C主機上的SD卡插槽有防呆，不能插表示方向錯誤，不要硬插。
++ 利用PC端的EMPower設定參數。也就是製作Config.json檔案。
