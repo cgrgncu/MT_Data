@@ -1,0 +1,90 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww17340\viewh13120\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 EMpower Release Notes\
+\
+EMpower v2.9 and receiver Firmware v2.9 bring support for MTC-155 and MTC-185 sensors, add support for EMpower on more modern computers running Windows 11/64, Linux Ubuntu 20/64 and macOS 12 Monterey Apple Silicon, and enable electrode pre-amp calibration, along with other minor features, support, and fixes.\
+\
+Full support for MTC-155 and MTC-185 sensors enables use of these new sensors, along with automatic serial number detection during calibrations and data acquisition. \
+\
+Support for up-to-date computer operating systems ensures EMpower compatibility with recent computing hardware.\
+\
+Support for the Bartington Mag13 provides Phoenix systems compatibility with a fluxgate sensor currently available from Bartington.\
+\
+Various other improvements and fixes improve flexibility, workflow, and system stability for both CSAMT and A/MT operations.\
+\
+\
+=======================================\
+	Operating systems supported\
+=======================================\
+	\
+	Windows\
+	* Versions tested:\
+	        Windows 10, 64-bit\
+	        Windows 11, 64-bit\
+       Permissions required: Must be logged in as Administrator\
+	NOTE: Windows 10S and Windows 11S are not supported\
+\
+	Linux\
+	* Versions tested:\
+	        Ubuntu 18.04, 64-bit\
+	        Ubuntu 20.04.4\
+	        Permissions required: Standard user\
+	Mac\
+	* Versions tested:\
+	        macOS 10.15.4, \uc0\u128 Catalina\u128 \
+	        macOS 12.0, Monterey (Apple Silicon)\
+	        Permissions required: Standard User\
+	\
+		\
+=======================================\
+What's new in the Latest Version\
+=======================================\
+	\
+September 14 2022 : v2.9.0.7\
+	\
+Major New Features:\
+*Support for Phoenix MTC-155 sensors, including serial number auto-detection\
+*Support for Phoenix MTC-185 sensors, including serial number auto-detection\
+*Support for Bartington Mag13 sensors\
+*Electrode pre-amp calibration enabled\
+*Support for Windows 11 64-bit\
+*Support for Linux Ubuntu 20.04.4\
+*Support for macOS 12 Monterey / Apple Silicon\
+\
+\
+Other New Features and Fixes:\
+*Extrapolated MTC series sensors calibration down to 5000s \
+*CSV export for CSAMT sites now support azimuth\
+*Cross-power file now stored in spectral density\
+*Added multi-recording selection in recording library \
+*Field QC now shows which H channel used in CSAMT processing\
+*Grid positions in the station editor are now hidden when the grid is not available\
+*Added recording library filter based on survey technique\
+*CSAMT processing now allows user to select between local H channels\
+*Fixed a crash when removing a CSAMT workbench, re-enabled multiple workbench support\
+*Fixed a crash when switching calibrations for CSAMT\
+*Various other minor bug fixes and improvements \
+\
+\
+=====================================\
+	Known Issues For the Latest version:\
+=====================================\
+	System:\
+*File dialog may crash on certain old Linux versions (GTK3 < 3.22). So far we know Ubuntu 14.04(Unity), Debian 8 (unknown window system), CentOS 7(Gnome), (Qt-bug 63160). \
+*Low frequency PNT (<100s) may have some issue on full rate recordings\
+*Mixed use of real and generic receiver cal could potentially distort high frequency phase curves\
+	\
+	GUI:\
+*Cached tiles in the map may not always display properly in MacOS\
+*Borrowing Mag for CSAMT gives "Unknown Exception" Error\
+	\
+\
+***IMPORTANT***\
+** Please DO NOT open any project in an EMpower version older than 1.35.4.x if the project has already been opened in this version\
+***IMPORTANT*** \
+}
