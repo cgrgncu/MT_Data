@@ -39,4 +39,5 @@
   + mth5 格式: 由美國的許多大單位所組織的團隊建立的MT專用格式
     + This project is in cooperation with the Incorporated Research Institutes of Seismology, the U.S. Geological Survey, and other collaborators. Facilities of the IRIS Consortium are supported by the National Science Foundation’s Seismological Facilities for the Advancement of Geoscience (SAGE) Award under Cooperative Support Agreement EAR-1851048. USGS is partially funded through the Community for Data Integration and IMAGe through the Minerals Resources Program.
     + REF: https://mth5.readthedocs.io/en/latest/index.html
+    + REF2: https://github.com/kujaku11/mt_metadata
     + 在2022年起支援讀取phoenix MTU-5C資料!
