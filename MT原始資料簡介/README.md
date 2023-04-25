@@ -6,7 +6,7 @@
 ### MT觀測資料
 + 時間域資料:
   + 時間序列資料
-+ 頻率域資料:
++ 頻率域資料(轉移函數,Transfer Function):
   + 頻譜資料
   + 阻抗資料(視電阻率與相位資料)
   + 傾子資料
@@ -43,3 +43,17 @@
     + REF2: https://github.com/kujaku11/mth5
     + 在2022年起支援讀取phoenix MTU-5C資料，也是修改自PhoenixGeoPy的作者程式碼。
     + 但我還是看不出這個MTH5有什麼明確的讀取校正檔的方案...
++ 時間序列處理軟體
+  + MTNET列舉免費軟體:
+    + EMP: Arseny Shlykov's (Windows) programme for processing, visualisation and analysis of EM data
+      + 這個目前下載要密碼了...等於不能取得...
+    + Razorback: Farid Smai and Pierre Wawrzyniak's Open Source Python Library for Robust Processing of Magnetotelluric Data
+      + 看起來沒有範例資料...
+    + BIRRP: Alan Chave's codes
+    + Gary Egbert's codes (from Gary Egbert)
+  + Alan G. Jones的軟體: LiMS Downlodable Codes Page: version 5.1
+    + https://homepages.dias.ie/ajones/progs/lims/lims.html 
+    + https://homepages.dias.ie/ajones/
+
+### 頻率域資料(轉移函數,Transfer Function)
++
