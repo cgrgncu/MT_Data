@@ -32,5 +32,11 @@
     + Q: 具體是怎麼做的?
     + Q: 為什麼要這樣抽樣?優點是什麼?缺點是什麼?
     + Q: 資料有需要連續嗎?為什麼? 
-+ 檔案格式
-  +  
++ 檔案格式  
+  + SEG EDI v1.0格式: 一種ASCII的格式，其中有定義如何記錄時間序列，但此方式非常冗長浪費空間，幾乎被棄用。
+    + 但按照其文件5.1章節所述，原始時間序列通常沒有標準的單位，在被移除系統響應之前通常是整數。為了要移除系統響應，所以必須同時儲存系統響應資訊及量測操作資訊在檔案中。
+  + MTU-5C請參考: DAA09 - DataFormat 3rd Party v2.0 - 210915.pdf
+  + mth5 格式: 由美國的許多大單位所組織的團隊建立的MT專用格式
+    + This project is in cooperation with the Incorporated Research Institutes of Seismology, the U.S. Geological Survey, and other collaborators. Facilities of the IRIS Consortium are supported by the National Science Foundation’s Seismological Facilities for the Advancement of Geoscience (SAGE) Award under Cooperative Support Agreement EAR-1851048. USGS is partially funded through the Community for Data Integration and IMAGe through the Minerals Resources Program.
+    + REF: https://mth5.readthedocs.io/en/latest/index.html
+    + 在2022年起支援讀取phoenix MTU-5C資料!
