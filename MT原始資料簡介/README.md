@@ -118,6 +118,10 @@ $$
 \rho_{a}=\frac{1}{\omega\mu_{0}}\left| Z \right|^{2}
 $$  
 
+$$
+\phi=tan^{-1}\left( \frac{\operatorname{Im}\begin{Bmatrix}Z\end{Bmatrix}}{\operatorname{Re}\begin{Bmatrix}Z\end{Bmatrix}} \right)
+$$  
 ```
-注意，這裡是教科書常寫的形式，其阻抗單位是[ohm]。
+注意，這裡是教科書常寫的形式，其阻抗單位是[ohm]。  
+這表示兩者為同個觀測值但是使用不同表述，基本上可以互相轉換。
 ```
