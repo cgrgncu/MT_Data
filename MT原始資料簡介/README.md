@@ -122,7 +122,10 @@ $$
 \phi=tan^{-1}\left( \frac{\operatorname{Im}\begin{Bmatrix}Z\end{Bmatrix}}{\operatorname{Re}\begin{Bmatrix}Z\end{Bmatrix}} \right)
 $$  
 ```
-注意，這裡是教科書常寫的形式，其阻抗單位是[ohm]。  
-其中，mu0為真空中的磁導率，單位[H/m]；omega為角頻率，單位[rad]。
+注意，這裡是教科書常寫的形式。
+Z為阻抗，單位[ohm]。  
+mu0為真空中的磁導率，單位[H/m]；omega為角頻率，單位[rad]。
+rho為視電阻率，單位[ohm-m]。
+phi為相位，單位[degrees]，
 這表示兩者為同個觀測值但是使用不同表述，基本上可以互相轉換。
 ```
