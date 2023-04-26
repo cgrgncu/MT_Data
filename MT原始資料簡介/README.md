@@ -93,12 +93,30 @@
         + 越低頻資料需要蒐集越長的時間，越長的時間越有可能受到各種可能的狀況來汙染資料。
 + 阻抗資料(Impedance Tensor)
   + 大地電磁法中，感興趣的系統響應之一就是阻抗。
-    + 常用阻抗(Impedance)的單位會是: $\left[ \Omega \right]=\left[ \frac{V/m}{A/m} \right]$
-    + 阻抗是複數，常被視為實部=電阻，虛部=電抗。也常表示為阻抗強度與阻抗相位。
+    + 阻抗(Impedance)的單位會是: $\left[ \Omega \right]=\left[ \frac{V/m}{A/m} \right]$
+      + 阻抗張量:  
+      
+$$
+\mathbf{Z}\left(f\right)=
+\begin{bmatrix}
+Z_{xx}\left(f\right)&Z_{xy}\left(f\right)\\ 
+Z_{yx}\left(f\right)&Z_{yy}\left(f\right) 
+\end{bmatrix}
+\mspace{36mu}\mspace{36mu}\text{(?)}
+$$  
+
+  + 阻抗是複數，常被視為實部=電阻，虛部=電抗。也常表示為阻抗強度與阻抗相位。
       + 可以繪製實部頻譜與虛部頻譜，但很少用，這裡不提。
       + 可以繪製阻抗的強度譜與相位譜。
++ 視電阻率(Apparent Resistivity)及相位(Phase)資料
     + 大地電磁法學者提出了視電阻率的概念，等同於另一種阻抗的表示方案:
       + 視電阻率(Apparent Resistivity)的單位會是: $\left[ \Omega m \right]$   
       + 相位的單位通常是[degrees]。
-      + 「阻抗」與「視電阻率及相位」的關係:
-      
+      + 「阻抗」與「視電阻率及相位」的關係:  
+
+$$
+\rho_{a}=\frac{1}{\omega\mu_{0}}\left| Z \right|^{2}
+$$  
+```
+注意，這裡是教科書常寫的形式，其阻抗單位是[ohm]。
+```
