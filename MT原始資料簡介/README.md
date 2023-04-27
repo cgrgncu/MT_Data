@@ -132,3 +132,8 @@ phi為相位，單位[degrees]，
 
 + 傾子資料
 + 嗯嗯啊阿以後再說
+
+
+算誤差?
+RHOXYERR_coefficient=6.141661E-01;% 不知道原因，由WinGLink運算推測出來的係數
+RHOXYERR=RHOXYERR_coefficient*sqrt(ZXYVAR)/abs(complex(ZXYR,ZXYI))
