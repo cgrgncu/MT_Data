@@ -93,7 +93,7 @@
         + 越低頻資料需要蒐集越長的時間，越長的時間越有可能受到各種可能的狀況來汙染資料。
 + 阻抗資料(Impedance Tensor)
   + 大地電磁法中，感興趣的系統響應之一就是阻抗。
-    + 阻抗(Impedance)的單位會是: $\left[ \Omega \right]=\left[ \frac{V/m}{A/m} \right]$
+    + 阻抗(Impedance)在教科書中用的單位會是: $\left[ \Omega \right]=\left[ \frac{V/m}{A/m} \right]$
       + 阻抗張量:  
       
 $$
