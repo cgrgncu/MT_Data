@@ -119,7 +119,7 @@ $$
 $$  
 
 $$
-\phi=tan^{-1}\left( \frac{\operatorname{Im}\begin{Bmatrix}Z\end{Bmatrix}}{\operatorname{Re}\begin{Bmatrix}Z\end{Bmatrix}} \right)
+\phi=tan^{-1}\left( \frac{\mathfrak{Im}\begin{Bmatrix}Z\end{Bmatrix}}{\mathfrak {Re}\begin{Bmatrix}Z\end{Bmatrix}} \right)
 $$  
 ```
 注意，這裡是教科書常寫的形式。
