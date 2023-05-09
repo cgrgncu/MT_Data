@@ -131,7 +131,27 @@ phi為相位，單位[degrees]，
 ```
 
 + 傾子資料
+  + REF：Williams, J. M., & Rodriguez, B. D. (2007). Magnetotelluric data, Southern San Luis Valley, Colorado. US Geological Survey.
+  + 
 + 嗯嗯啊阿以後再說
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 算誤差?
