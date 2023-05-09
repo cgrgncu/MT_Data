@@ -132,7 +132,8 @@ phi為相位，單位[degrees]，
 
 + 傾子資料
   + REF：Williams, J. M., & Rodriguez, B. D. (2007). Magnetotelluric data, Southern San Luis Valley, Colorado. US Geological Survey.
-  + 
+  + REF2：https://www.mtnet.info/papers/ClassicPapers/Gregori+Lanzerotti_1980_RevGeophysSpacePhys.pdf
+  + 計算定義通常參考seg edi文件
 + 嗯嗯啊阿以後再說
 
 
