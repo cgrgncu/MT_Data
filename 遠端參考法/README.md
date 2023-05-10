@@ -1,4 +1,6 @@
 # 遠端參考法
++ 整理撰寫: HsiupoYeh
++ 更新日期: 2023-05-10
 + 重要博士論文: 
   + Gamble, T.D., 1978, Remote Reference Magnetotellurics with Squids Ph.D. thesis, University of California, Berkeley, LBL-8062
 + 重要期刊論文:
@@ -6,12 +8,16 @@
   + Gamble, T. D., Goubau, W. M., & Clarke, J. (1979). Error analysis for remote reference magnetotellurics. Geophysics, 44(5), 959-968.
   + Bhattacharya, B. B. (2002). How remote can the far remote reference site for magnetotelluric measurements be. Journal of Geophysical Research Solid Earth, 107(B6), ETG-1.
 
-### Bhattacharya(2002)心得 音譯:巴塔查里亞
+### Bhattacharya(2002) 整理
++ Bhattacharya，音譯:巴塔查里亞
 + 遠端參考法技術(Remote reference)，簡稱RR法。
 + 目的是用來降低本地觀測電場與磁場的雜訊造成的阻抗估算偏差。
 + RR法只在本地站的噪聲與遠端站的噪聲為uncorrelated雜訊的時候有效。
-  + 沒有提到距離限制!
-  + 此方法不會降低correlated雜訊，因為此方法假設correlated的都是不是雜訊，是有效訊號。
+  ```
+  討論:
+  1. RR法沒有提到距離限制!
+  2. RR法不會降低correlated雜訊，因為此方法假設correlated的都是不是雜訊，是有效訊號。uncorrelated都是雜訊。
+  ```
 + 測試的遠端參考站距離本地基站80、115、215[km]，分布在各種不同的地質環境中。
 + 本篇文章研究結果表示，非常遠的距離(215公里)的遠端參考站對所有的頻段都有很棒的效果。 
 + Introduction提到:
@@ -28,7 +34,10 @@
 + 本文章(Bhattacharya [2002]) 遠端站距離本地基站80、115、215[km]。在中緯度地區、磁場均勻。頻寬範圍30~0.00055[Hz]。
     + 均勻磁場意味著源磁場的波長比站點間隔長。
     + 高緯度不滿足平面電磁波假設。 
-      + 我覺得緯度差太多的地方就不適合RR法。
+    ```
+    討論:
+    我覺得緯度差太多的地方就不適合RR法。但怎樣算差太多我也不知道。
+    ```
     + 3個主要因素影響RR法效果:
       + 本地基站與遠端站的噪聲。
       + 本地基站與遠端站的有效訊號一致性。
