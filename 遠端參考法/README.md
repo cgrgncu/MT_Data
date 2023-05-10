@@ -26,5 +26,6 @@ Until now, relatively little information has been available about the maximum di
   + Larsen et al. [1996] 使用距離100[km]相對乾淨的測站來測試RR法的相關程式碼。
   + Egbert [1997] 使用距離100[km]的遠端參考站來測試其RR法相關程式碼。
   + 本篇(Bhattacharya [2002]) 遠端站距離本地基站80、115、215[km]。在中緯度地區、磁場均勻。頻寬範圍30~0.00055[Hz]。
-    + 均勻磁場意味著源磁場的波長比站點間隔長
+    + 均勻磁場意味著源磁場的波長比站點間隔長。
     + 高緯度不滿足平面電磁波假設。 我覺得緯度差太多的地方就不適合RR法。
+    + 研究指出: 80、115[km]在dead band怪怪的，215[km]對所有頻段都有好效果。
