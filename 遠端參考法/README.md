@@ -3,6 +3,9 @@
 + 更新日期: 2023-05-10
 + 重要博士論文: 
   + Gamble, T.D., 1978, Remote Reference Magnetotellurics with Squids Ph.D. thesis, University of California, Berkeley, LBL-8062
+  ```
+  遠端參考法發明人的博士論文。想學會細節請參考這本共計132頁的博士論文，內容包含遠端參考法計算、誤差估計。會比期刊論文更詳細。
+  ```
 + 重要期刊論文:
   + Gamble, T. D., Goubau, W. M., & Clarke, J. (1979). Magnetotellurics with a remote magnetic reference. Geophysics, 44(1), 53-68.
   + Gamble, T. D., Goubau, W. M., & Clarke, J. (1979). Error analysis for remote reference magnetotellurics. Geophysics, 44(5), 959-968.
