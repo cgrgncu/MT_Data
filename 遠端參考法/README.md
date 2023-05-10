@@ -1,30 +1,31 @@
 # 遠端參考法(Remote reference)
 + 整理撰寫: HsiupoYeh
 + 更新日期: 2023-05-10
-+ 重要博士論文: 
++ 重要博士論文：  
   + Gamble, T.D., 1978, Remote Reference Magnetotellurics with Squids Ph.D. thesis, University of California, Berkeley, LBL-8062
   ```
   遠端參考法發明人的博士論文。想學會細節請參考這本共計132頁的博士論文，內容包含遠端參考法計算、誤差估計。會比期刊論文更詳細。
   ```
-+ 重要期刊論文:
++ 重要期刊論文：
   + Gamble, T. D., Goubau, W. M., & Clarke, J. (1979). Magnetotellurics with a remote magnetic reference. Geophysics, 44(1), 53-68.
   + Gamble, T. D., Goubau, W. M., & Clarke, J. (1979). Error analysis for remote reference magnetotellurics. Geophysics, 44(5), 959-968.
   + Bhattacharya, B. B. (2002). How remote can the far remote reference site for magnetotelluric measurements be. Journal of Geophysical Research Solid Earth, 107(B6), ETG-1.
 
-### Bhattacharya(2002) 整理
-+ Bhattacharya，音譯:巴塔查里亞
+### Bhattacharya[2002] 整理
++ Bhattacharya，音譯：巴塔查里亞
 + 遠端參考法技術(Remote reference)，簡稱RR法。
 + 目的是用來降低本地觀測電場與磁場的雜訊造成的阻抗估算偏差。
 + RR法只在本地站的噪聲與遠端站的噪聲為uncorrelated雜訊的時候有效。
   ```
-  討論:
+  討論：
   1. RR法沒有提到距離限制!
   2. RR法不會降低correlated雜訊，因為此方法假設correlated的都是不是雜訊，是有效訊號。uncorrelated都是雜訊。
+  3. 用correlated與uncorrelated這件事情是比較口語的說法，在訊號處理中，我們指的是coherent與incoherent。其計量化計算的值在訊號處理中被定義為coherence。
+  4. MT的學者提出的則是coherency，
   ```
 + 測試的遠端參考站距離本地基站80、115、215[km]，分布在各種不同的地質環境中。
 + 本篇文章研究結果表示，非常遠的距離(215公里)的遠端參考站對所有的頻段都有很棒的效果。 
-+ Introduction提到:
-
++ Introduction提到：
   ```
   Until now, relatively little information has been available about the maximum distance up to which the far RR has been found to be effective. The initial work of Gamble et al. [1979a] was for a separation of 4.8 km only. Goubau et al. [1984, p. 432] states that ‘‘sources of noise are not well understood, but general experience has indicated that a separation of several kilometres between the base and reference stations is sufficient to ensure that the data are unbiased.’’ Jones et al. [1989] suggested that to minimize the bias errors, RR should be undertaken. They have reported RR measure?ments with 135 km separation between stations for MT measure?ments over 5-day intervals. Chave and Smith [1994] suggest that greater attention be given to galvanic distortion of magnetic fields during MT surveys. In Japan, Tarakura et al. [1994, p. 24] find that ‘‘the separation between a measurement site and a reference site is usually at most 20 km.’’ However, they carried out a field experi?ment in Higosi-Kubiki area, Niligata prefecture, where the noise could be removed sufficiently only when the reference site was 147 km away from the measurement site. Larsen et al. [1996] used a relatively clean MT site in central California ?100 km from the local site to test their code. Egbert [1997] used a remote site at a distance of 100 km from the local site while using his robust processing approach based on multivariate statistical methods
   ```
@@ -45,4 +46,11 @@
       + 本地基站與遠端站的噪聲。
       + 本地基站與遠端站的有效訊號一致性。
       + 本地基站與遠端站的噪聲一致性。
+      ```
+      討論:
+      希望滿足:
+      1. 遠端站的噪聲小
+      2. 本地基站與遠端站的磁場訊號同調性高。cohereny
+      3. 
+      ```
     + 研究指出: 80、115[km]在dead band不是很平滑，215[km]對所有頻段都有好效果。
