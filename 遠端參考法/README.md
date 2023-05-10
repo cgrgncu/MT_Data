@@ -21,7 +21,7 @@
   1. RR法沒有提到距離限制!
   2. RR法不會降低correlated雜訊，因為此方法假設correlated的都是不是雜訊，是有效訊號。uncorrelated都是雜訊。
   3. 用correlated與uncorrelated這件事情是比較口語的說法，在訊號處理中，我們指的是coherent與incoherent。其計量化計算的值在訊號處理中被定義為coherence。
-  4. MT的學者提出的則是coherency，
+  4. MT的學者提出的則是coherency，其計算公式與coherence類似，但改為計算互功率譜。
   ```
 + 測試的遠端參考站距離本地基站80、115、215[km]，分布在各種不同的地質環境中。
 + 本篇文章研究結果表示，非常遠的距離(215公里)的遠端參考站對所有的頻段都有很棒的效果。 
