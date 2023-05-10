@@ -18,7 +18,7 @@
 + RR法只在本地站的噪聲與遠端站的噪聲為uncorrelated雜訊的時候有效。
   ```
   討論：
-  1. RR法沒有提到距離限制!
+  1. RR法理論上沒有提到距離限制！
   2. RR法不會降低correlated雜訊，因為此方法假設correlated的都是不是雜訊，是有效訊號。uncorrelated都是雜訊。
   3. 用correlated與uncorrelated這件事情是比較口語的說法，在訊號處理中，我們指的是coherent與incoherent。其計量化計算的值在訊號處理中被定義為coherence。
   4. MT的學者提出的則是coherency，其計算公式與coherence類似，細節請參考教科書。
@@ -65,5 +65,6 @@
       1. 遠端站的噪聲小。
       2. 本地基站與遠端站的磁場訊號同調性(cohereny)高。
       3. 本地基站與遠端站的噪聲(cohereny)低。
+      一般直觀認為，遠端站因為與基站距離遠，雜訊來源高機率不同，滿足第3點的機會就高。
       ```
     + 研究指出: 80、115[km]在dead band不是很平滑，215[km]對所有頻段都有好效果。
