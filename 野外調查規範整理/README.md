@@ -9,3 +9,11 @@
       + Long-period magnetotelluric (LMT) : 1[Hz] ~ 0.0001[Hz] = 1[sec] ~ 10000[sec]。也可以> 10000[sec]
       + Broadband MT (BBMT) : 1000[Hz] ~ 0.001[Hz] = 0.001[sec] ~ 1000[sec]
       + Audio-frequency MT (AMT) : 10000[Hz] ~ 10[Hz] = 0.0001[sec] ~ 0.1[sec]
+      + Controlled-source AMT (CSAMT) : 10000[Hz] ~ 0.1250[Hz] = 0.0001[sec] ~ 8[sec]
+      + Radio-frequency MT (RMT) : 1000000[Hz] ~ 10000[Hz] = 0.000001[sec] ~ 0.0001[sec]
+      + Seafloor MT (SFMT) : LMT+BBMT
+
+    + 部屬所需時間:
+      + LMT: 數天至數個月
+      + BBMT: 幾天
+      + AMT: 幾小時  
