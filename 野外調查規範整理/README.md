@@ -12,7 +12,13 @@
       + Controlled-source AMT (CSAMT) : 10000[Hz] ~ 0.1250[Hz] = 0.0001[sec] ~ 8[sec]
       + Radio-frequency MT (RMT) : 1000000[Hz] ~ 10000[Hz] = 0.000001[sec] ~ 0.0001[sec]
       + Seafloor MT (SFMT) : LMT+BBMT
+```
+電磁波譜的分類
+```
 
+```
+鳳凰公司的分類
+```
     + 部屬所需時間:
       + LMT: 數天至數個月
       + BBMT: 幾天
