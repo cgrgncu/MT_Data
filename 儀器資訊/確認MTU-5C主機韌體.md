@@ -68,3 +68,41 @@
 + 長按電源按鈕超過3秒，電源燈號與SD燈號立刻同時快速閃爍紅燈，表示開始進入關機程序。接著電源燈號與SD燈號同時恆滅，表示已關機完畢。
 + 關機完畢後，把保護蓋鎖回去，並拆除電源線及收拾車用電池。若習慣保存時把SD卡插著也可以插回去。
 + 結束。
+
+
+### 從資料檔案查詢韌體版本
++ 從「executor.log」檔案中可以找到相關資訊。
++ 從「backend.log」檔案中可以找到相關資訊。
++ 使用Empower軟體，從「View Recording Details」進去，看「Instrument Info」的「OS Version」部分。
+
+
+### 目前在用的版本更新紀錄整理(September 14 2022 : v2.9.0.7)
++ 處理軟體(EMpower v2.9)搭配接收器主機(內置韌體版本v2.9)使用。主要修正已下功能:
+  + 開始支援新型磁力感應器(MTC-155、MTC-185)
+  + 軟體可運行在多個現代化個人電腦作業系統中(Windows 11/64、Linux Ubuntu 20/64 和 macOS 12 Monterey Apple Silicon)
+  + 啟用了電極的前置放大器校準。
+  + 改善其他次要功能
+  + 其他錯誤修正。
++ 完整支援新型磁力感應器(MTC-155、MTC-185)，且可以在資料蒐集與校正期間自動偵測序號。
++ 支援Bartington Mag13磁通量計。
++ 改善靈活性、工作流程、系統穩定性。
++ Major New Features:
+  + Support for Phoenix MTC-155 sensors, including serial number auto-detection
+  + Support for Phoenix MTC-185 sensors, including serial number auto-detection
+  + Support for Bartington Mag13 sensors
+  + Electrode pre-amp calibration enabled
+  + Support for Windows 11 64-bit
+  + Support for Linux Ubuntu 20.04.4
+  + Support for macOS 12 Monterey / Apple Silicon
++ Other New Features and Fixes:
+  + Extrapolated MTC series sensors calibration down to 5000s 
+  + CSV export for CSAMT sites now support azimuth
+  + Cross-power file now stored in spectral density
+  + Added multi-recording selection in recording library 
+  + Field QC now shows which H channel used in CSAMT processing
+  + Grid positions in the station editor are now hidden when the grid is not available
+  + Added recording library filter based on survey technique
+  + CSAMT processing now allows user to select between local H channels
+  + Fixed a crash when removing a CSAMT workbench, re-enabled multiple workbench support
+  + Fixed a crash when switching calibrations for CSAMT
+  + Various other minor bug fixes and improvements 
