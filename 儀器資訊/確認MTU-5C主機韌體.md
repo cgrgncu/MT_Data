@@ -76,7 +76,7 @@
 + 使用Empower軟體，從「View Recording Details」進去，看「Instrument Info」的「OS Version」部分。
 
 
-### 目前在用的版本更新紀錄整理(September 14 2022 : v2.9.0.7)
+### 目前在用的版本更新紀錄整理(EMpower: September 14 2022 : v2.9.0.7)(MTU-5C: v2.9.0.2)
 + 處理軟體(EMpower v2.9)搭配接收器主機(內置韌體版本v2.9)使用。主要修正已下功能:
   + 開始支援新型磁力感應器(MTC-155、MTC-185)
   + 軟體可運行在多個現代化個人電腦作業系統中(Windows 11/64、Linux Ubuntu 20/64 和 macOS 12 Monterey Apple Silicon)
