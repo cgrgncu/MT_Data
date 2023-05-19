@@ -21,140 +21,143 @@
 + 利用Empower軟體製作config檔案。
   + 執行Empower，選「Prepare」，「Receiver Type」維持「MTU-5C」，選「Calibration」區塊的「Receiver」，利用對話框將config檔案先存到桌面。
   + 檔案內容如下(使用UTF-8編碼):
-```json
-{
-    "config": [
-        {
-            "RTMT": {
-                "hi_freq": false,
-                "low_freq": false,
-                "mid_freq": false
-            },
-            "calibration": {
-                "delete_timeseries": true,
-                "passes_requested": 1,
-                "type": "receiver"
-            },
-            "chanconfig": [
-                {
-                    "at": 0,
-                    "ga": 1,
-                    "ga_ext": 1,
-                    "length1": 50,
-                    "length2": 50,
-                    "lp": 10000,
-                    "lp_ext": 4,
-                    "on": 1,
-                    "pg": 4,
-                    "pg_ext": 2,
-                    "tag": "E1",
-                    "version": 2
-                },
-                {
-                    "at": 0,
-                    "ga": 1,
-                    "ga_ext": 1,
-                    "length1": 50,
-                    "length2": 50,
-                    "lp": 10000,
-                    "lp_ext": 4,
-                    "on": 1,
-                    "pg": 4,
-                    "pg_ext": 2,
-                    "tag": "E2",
-                    "version": 2
-                },
-                {
-                    "ga": 4,
-                    "ga_ext": 2,
-                    "lp": 10000,
-                    "lp_ext": 4,
-                    "on": 1,
-                    "serial": 0,
-                    "tag": "H1",
-                    "type": 14,
-                    "type_name": "MTC-155",
-                    "version": 1
-                },
-                {
-                    "ga": 4,
-                    "ga_ext": 2,
-                    "lp": 10000,
-                    "lp_ext": 4,
-                    "on": 1,
-                    "serial": 0,
-                    "tag": "H2",
-                    "type": 14,
-                    "type_name": "MTC-155",
-                    "version": 1
-                },
-                {
-                    "ga": 4,
-                    "ga_ext": 2,
-                    "lp": 10000,
-                    "lp_ext": 4,
-                    "on": 1,
-                    "serial": 0,
-                    "tag": "H3",
-                    "type": 14,
-                    "type_name": "MTC-155",
-                    "version": 1
-                }
-            ],
-            "config_index": 0,
-            "decimation": {
-                "divider_id": 2,
-                "interleave_lev0": 2,
-                "interleave_lev1": 0,
-                "version_1": {
-                    "interleave_150": 1,
-                    "interleave_2400": 0,
-                    "interleave_24k": 2,
-                    "interleave_30": 0,
-                    "interleave_96k": 0,
-                    "period": 30
-                }
-            },
-            "layout": {
-                "Company_Name": "",
-                "Layout_Type": 4,
-                "Notes": "",
-                "Operator": "",
-                "Station_Name": "",
-                "Survey_Name": "",
-                "version": 6
-            },
-            "potres_detect": true,
-            "schedule_name": "Manual Override",
-            "sensor_detect": true,
-            "startTime": 0,
-            "stopTime": 0,
-            "version": 1
-        }
-    ],
-    "empower_version": "v2.9.0.11",
-    "network": {
-        "gateway": "",
-        "ipaddr": "",
-        "mode": "dhcp",
-        "nameserver": [
-        ],
-        "netmask": "",
-        "serve_dhcp": false,
-        "serve_dhcp_end": "",
-        "serve_dhcp_start": ""
-    },
-    "power_recovery_enabled": false,
-    "receiver": "MTU-5C",
-    "schedule": "No Schedule (button only)",
-    "surveyTechnique": 1,
-    "timezone": "",
-    "timezone_offset": 0,
-    "version": 18
-}
+  ```json
+  {
+      "config": [
+          {
+              "RTMT": {
+                  "hi_freq": false,
+                  "low_freq": false,
+                  "mid_freq": false
+              },
+              "calibration": {
+                  "delete_timeseries": true,
+                  "passes_requested": 1,
+                  "type": "receiver"
+              },
+              "chanconfig": [
+                  {
+                      "at": 0,
+                      "ga": 1,
+                      "ga_ext": 1,
+                      "length1": 50,
+                      "length2": 50,
+                      "lp": 10000,
+                      "lp_ext": 4,
+                      "on": 1,
+                      "pg": 4,
+                      "pg_ext": 2,
+                      "tag": "E1",
+                      "version": 2
+                  },
+                  {
+                      "at": 0,
+                      "ga": 1,
+                      "ga_ext": 1,
+                      "length1": 50,
+                      "length2": 50,
+                      "lp": 10000,
+                      "lp_ext": 4,
+                      "on": 1,
+                      "pg": 4,
+                      "pg_ext": 2,
+                      "tag": "E2",
+                      "version": 2
+                  },
+                  {
+                      "ga": 4,
+                      "ga_ext": 2,
+                      "lp": 10000,
+                      "lp_ext": 4,
+                      "on": 1,
+                      "serial": 0,
+                      "tag": "H1",
+                      "type": 14,
+                      "type_name": "MTC-155",
+                      "version": 1
+                  },
+                  {
+                      "ga": 4,
+                      "ga_ext": 2,
+                      "lp": 10000,
+                      "lp_ext": 4,
+                      "on": 1,
+                      "serial": 0,
+                      "tag": "H2",
+                      "type": 14,
+                      "type_name": "MTC-155",
+                      "version": 1
+                  },
+                  {
+                      "ga": 4,
+                      "ga_ext": 2,
+                      "lp": 10000,
+                      "lp_ext": 4,
+                      "on": 1,
+                      "serial": 0,
+                      "tag": "H3",
+                      "type": 14,
+                      "type_name": "MTC-155",
+                      "version": 1
+                  }
+              ],
+              "config_index": 0,
+              "decimation": {
+                  "divider_id": 2,
+                  "interleave_lev0": 2,
+                  "interleave_lev1": 0,
+                  "version_1": {
+                      "interleave_150": 1,
+                      "interleave_2400": 0,
+                      "interleave_24k": 2,
+                      "interleave_30": 0,
+                      "interleave_96k": 0,
+                      "period": 30
+                  }
+              },
+              "layout": {
+                  "Company_Name": "",
+                  "Layout_Type": 4,
+                  "Notes": "",
+                  "Operator": "",
+                  "Station_Name": "",
+                  "Survey_Name": "",
+                  "version": 6
+              },
+              "potres_detect": true,
+              "schedule_name": "Manual Override",
+              "sensor_detect": true,
+              "startTime": 0,
+              "stopTime": 0,
+              "version": 1
+          }
+      ],
+      "empower_version": "v2.9.0.11",
+      "network": {
+          "gateway": "",
+          "ipaddr": "",
+          "mode": "dhcp",
+          "nameserver": [
+          ],
+          "netmask": "",
+          "serve_dhcp": false,
+          "serve_dhcp_end": "",
+          "serve_dhcp_start": ""
+      },
+      "power_recovery_enabled": false,
+      "receiver": "MTU-5C",
+      "schedule": "No Schedule (button only)",
+      "surveyTechnique": 1,
+      "timezone": "",
+      "timezone_offset": 0,
+      "version": 18
+  }
+  ```
++ 複製該檔案到SD卡的根目錄下。
++ 插入SD卡到MTU-5C主機中。
 ```
-  + 複製該檔案到SD卡的根目錄下。
-
+卡片有防呆，不要硬插，插得進去的方向很容易就插入了。
+```
 + 在關機狀態下確實穩定的短按(大概壓住維持半秒後放開)一次電源按鈕，電源燈號立刻慢速閃爍紅燈，SD燈號恆滅，表示開始進入開機程序。
 ```
 按下電源按鈕啟動後，小螢幕模組會被通電並進入自己的模組開機。
