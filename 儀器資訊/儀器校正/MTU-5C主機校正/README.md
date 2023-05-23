@@ -1,7 +1,7 @@
 # MTU-5C主機校正
 + MTU-5C主機校正在英文中是指MTU-5C Receiver Calibration。
 + 本文作者: HsiupoYeh
-+ 更新日期: 2023-05-19
++ 更新日期: 2023-05-23
 
 ### 準備工具
 + MTU-5C 
