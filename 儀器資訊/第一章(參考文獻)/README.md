@@ -73,7 +73,7 @@
 + 公司名稱: Phoenix Geosystem Indonesia (PGI)
   + Phoenix Geosystem Indonesia (PGI) 成立於 2005 年，由地球物理、應用地球物理、電氣和土木工程領域的多名專業人士聯合成立。
   + 網頁專業正確的多，比加拿大原廠認真許多...
-+ 官方網站: https://phoenix-geosystem.com/phoenix-geophysics/ 
++ 官方網站1: https://phoenix-geosystem.com/phoenix-geophysics/ 
 + MTU-5C宣傳手冊(裡面有提到主要規格)
   + 網址: https://phoenix-geosystem.com/wp-content/uploads/2023/05/MTU-5C_Brochure-2.pdf
   + 備份: MTU-5C_Brochure-2.pdf
@@ -83,3 +83,8 @@
 + EMPower宣傳手冊
   + 網址: https://phoenix-geosystem.com/wp-content/uploads/2023/05/EMpower_Brochure.pdf
   + 備份: EMpower_Brochure.pdf
++ 官方網站2: https://www.phoenix-geosystem.com/
+  + 看起來是舊的官網
++ 舊感應器資料:
+  + 網址: geosystem-9-field-sensors.html
+  + 備份: 
