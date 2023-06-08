@@ -33,6 +33,17 @@
   + 網址: http://www.phoenix-geophysics.com/products/sensors/ 
 + 電場與磁場感應器規格書:
   + 網址: http://www.phoenix-geophysics.com/products/sensors/sensors_specsheet.pdf
+  + 備份: sensors_specsheet.pdf
++ 舊的說明手冊(要帳號密碼)
+  + Appendix C - Parallel and White Noise Testing
+    + 網址:
+    + 備份: mtu_noise_tests.pdf
+  + Data Processing User Guide v3.0 2015
+    + 網址:
+    + 備份: data-proc-v.3-online.pdf
+  + V5 System 2000 MTU/MTU-A User Guide
+    + 網址:
+    + 備份: mtu_ug_3.0.pdf 
 + 官方網站2: https://www.phoenixgeophysics.com/
   + 看起來是新的官網。2023-06-08確認可用。
 + 電子信箱2: contact@phoenix-geophysics.com
