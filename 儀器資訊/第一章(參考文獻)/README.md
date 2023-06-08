@@ -24,6 +24,11 @@
 + 官方網站1: http://www.phoenix-geophysics.com/
   + 這是最早的官網，似乎要被廢棄了...
 + 電子信箱1: support@phoenix-geophysics.com
++ 官方文宣:
+  + 網址: http://www.phoenix-geophysics.com/home/PhoenixGeophysics_corpbrochure.pdf
+  + 備份: PhoenixGeophysics_corpbrochure.pdf
++ 磁場感應器提醒: 
+  + Phoenix 採用了一種新格式來為感應線圈傳感器分配序列號。 所有新傳感器都有以數字“5”開頭的 5 位序列號。
 + 官方網站2: https://www.phoenixgeophysics.com/
   + 看起來是新的官網。2023-06-08確認可用。
 + 電子信箱2: contact@phoenix-geophysics.com
