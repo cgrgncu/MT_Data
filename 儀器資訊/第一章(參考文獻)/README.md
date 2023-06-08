@@ -36,12 +36,12 @@
   + 備份: sensors_specsheet.pdf
 + 舊的說明手冊(要帳號密碼)
   + Appendix C - Parallel and White Noise Testing
-    + 網址:
+    + 網址: 
     + 備份: mtu_noise_tests.pdf
   + Data Processing User Guide v3.0 2015
-    + 網址:
+    + 網址: 
     + 備份: data-proc-v.3-online.pdf
-  + V5 System 2000 MTU/MTU-A User Guide
+  + V5 System 2000 MTU/MTU-A User Guide 2015
     + 網址:
     + 備份: mtu_ug_3.0.pdf 
 + 官方網站2: https://www.phoenixgeophysics.com/
@@ -53,6 +53,10 @@
   + 圖片備份: MTU主機機構圖(官網圖片).png
 + 舊的說明手冊:
   + Data Processing User Guide v3.0 2015
+    + 網址: https://www.phoenixgeophysics.com/_files/ugd/ffb3ba_b438ce07143544959b9f92bf1a444e7c.pdf
+    + 備份: MT data-proc-v.3.pdf
+    + 檔案大小跟舊版官網提供的一樣
+  + V5 System 2000 MTU/MTU-A User Guide 2015
     + 網址: https://www.phoenixgeophysics.com/_files/ugd/ffb3ba_b438ce07143544959b9f92bf1a444e7c.pdf
     + 備份: MTU UG 3.0.pdf
     + 檔案大小跟舊版官網提供的一樣
