@@ -29,6 +29,10 @@
   + 備份: PhoenixGeophysics_corpbrochure.pdf
 + 磁場感應器提醒: 
   + Phoenix 採用了一種新格式來為感應線圈傳感器分配序列號。 所有新傳感器都有以數字“5”開頭的 5 位序列號。
++ 電場與磁場感應器介紹:
+  + 網址: http://www.phoenix-geophysics.com/products/sensors/ 
++ 電場與磁場感應器規格書:
+  + 網址: http://www.phoenix-geophysics.com/products/sensors/sensors_specsheet.pdf
 + 官方網站2: https://www.phoenixgeophysics.com/
   + 看起來是新的官網。2023-06-08確認可用。
 + 電子信箱2: contact@phoenix-geophysics.com
