@@ -25,8 +25,8 @@
   + 這是最早的官網，似乎要被廢棄了...
 + 電子信箱1: support@phoenix-geophysics.com
 + 官方網站2: https://www.phoenixgeophysics.com/
+  + 看起來是新的官網。2023-06-08確認可用。
 + 電子信箱2: contact@phoenix-geophysics.com
-+ 
 + EMPOWER軟體技術服務: https://phoenixgeophysics.freshdesk.com
 + 軟體與韌體下載點: http://empower.phoenix-geophysics.com/releases/
 
