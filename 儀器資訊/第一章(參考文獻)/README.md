@@ -60,9 +60,12 @@
     + 網址: https://www.phoenixgeophysics.com/_files/ugd/ffb3ba_b438ce07143544959b9f92bf1a444e7c.pdf
     + 備份: MTU UG 3.0.pdf
     + 檔案大小跟舊版官網提供的一樣
-  + 電極保養手冊:
+  + 電極保養手冊
     + 網址: https://www.phoenixgeophysics.com/_files/ugd/ffb3ba_167f8a85fd9a4f4db4c3bfc92d4eeec5.pdf
     + 備份: PE5 Electrode Care Ver3.pdf
+  + XLPF EXTERNAL TELLURIC LOW-PASS FILTER User Guide
+    + 網址: https://www.phoenixgeophysics.com/_files/ugd/ffb3ba_170ad167c8da4574820d5d09414ade44.pdf
+    + 備份: XLPF User Guide.pdf 
 + EMPOWER軟體技術服務: https://phoenixgeophysics.freshdesk.com
 + 軟體與韌體下載點: http://empower.phoenix-geophysics.com/releases/
 
