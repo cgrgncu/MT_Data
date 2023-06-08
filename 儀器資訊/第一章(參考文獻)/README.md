@@ -27,6 +27,10 @@
 + 官方網站2: https://www.phoenixgeophysics.com/
   + 看起來是新的官網。2023-06-08確認可用。
 + 電子信箱2: contact@phoenix-geophysics.com
++ MTU主機機構圖:
+  + 網址: https://www.phoenixgeophysics.com/ultra-wideband-mt-systems
+  + 圖片: https://static.wixstatic.com/media/ffb3ba_b5c2e5c66a0f4a36a1694291470247bb~mv2.png/v1/crop/x_598,y_130,w_2394,h_1645/fill/w_480,h_330,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RepairInstructions.png
+  + 圖片備份: MTU主機機構圖(官網圖片).png
 + EMPOWER軟體技術服務: https://phoenixgeophysics.freshdesk.com
 + 軟體與韌體下載點: http://empower.phoenix-geophysics.com/releases/
 
