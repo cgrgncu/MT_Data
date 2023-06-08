@@ -87,4 +87,4 @@
   + 看起來是舊的官網未刪除頁面
 + 舊感應器資料:
   + 網址: https://www.phoenix-geosystem.com/geosystem-9-field-sensors.html
-  + 備份: 
+  + 備份: Field Sensors.pdf
