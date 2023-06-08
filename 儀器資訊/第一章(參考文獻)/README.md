@@ -51,9 +51,14 @@
   + 網址: https://www.phoenixgeophysics.com/ultra-wideband-mt-systems
   + 圖片: https://static.wixstatic.com/media/ffb3ba_b5c2e5c66a0f4a36a1694291470247bb~mv2.png/v1/crop/x_598,y_130,w_2394,h_1645/fill/w_480,h_330,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RepairInstructions.png
   + 圖片備份: MTU主機機構圖(官網圖片).png
-+ 電極保養手冊:
-  + 網址: https://www.phoenixgeophysics.com/_files/ugd/ffb3ba_167f8a85fd9a4f4db4c3bfc92d4eeec5.pdf
-  + 備份: PE5 Electrode Care Ver3.pdf
++ 舊的說明手冊:
+  + Data Processing User Guide v3.0 2015
+    + 網址: https://www.phoenixgeophysics.com/_files/ugd/ffb3ba_b438ce07143544959b9f92bf1a444e7c.pdf
+    + 備份: MTU UG 3.0.pdf
+    + 檔案大小跟舊版官網提供的一樣
+  + 電極保養手冊:
+    + 網址: https://www.phoenixgeophysics.com/_files/ugd/ffb3ba_167f8a85fd9a4f4db4c3bfc92d4eeec5.pdf
+    + 備份: PE5 Electrode Care Ver3.pdf
 + EMPOWER軟體技術服務: https://phoenixgeophysics.freshdesk.com
 + 軟體與韌體下載點: http://empower.phoenix-geophysics.com/releases/
 
