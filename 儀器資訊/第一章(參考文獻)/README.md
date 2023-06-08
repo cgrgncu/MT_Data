@@ -83,8 +83,8 @@
 + EMPower宣傳手冊
   + 網址: https://phoenix-geosystem.com/wp-content/uploads/2023/05/EMpower_Brochure.pdf
   + 備份: EMpower_Brochure.pdf
-+ 官方網站2: https://www.phoenix-geosystem.com/
-  + 看起來是舊的官網
++ 官方網站2: https://www.phoenix-geosystem.com/about.html
+  + 看起來是舊的官網未刪除頁面
 + 舊感應器資料:
-  + 網址: geosystem-9-field-sensors.html
+  + 網址: https://www.phoenix-geosystem.com/geosystem-9-field-sensors.html
   + 備份: 
