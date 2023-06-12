@@ -10,7 +10,8 @@
   + Gamble, T. D., Goubau, W. M., & Clarke, J. (1979). Magnetotellurics with a remote magnetic reference. Geophysics, 44(1), 53-68.
   + Gamble, T. D., Goubau, W. M., & Clarke, J. (1979). Error analysis for remote reference magnetotellurics. Geophysics, 44(5), 959-968.
   + Bhattacharya, B. B. (2002). How remote can the far remote reference site for magnetotelluric measurements be. Journal of Geophysical Research Solid Earth, 107(B6), ETG-1.
-
++ Phoenix Geophysics V5 System 2000 MTU/MTU-A User Guide 2015：
+  + 手冊指出: 在某些情況下，簡單地同時使用兩個本地調查站點是可行的，每個站點都充當另一個站點的遠程參考。
 ### Bhattacharya[2002] 整理
 + Bhattacharya，音譯：巴塔查里亞
 + 遠端參考法技術(Remote reference)，簡稱RR法。
