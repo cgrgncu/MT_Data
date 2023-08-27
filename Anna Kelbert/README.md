@@ -172,3 +172,70 @@
   <Electric name="Ey" orientation="90.0" x="0.0" y="-40.0" z="0.0" x2="0.0" y2="40.0" z2="0.0"/>
   </OutputChannels>
   ```
++ 我們後來意識到，這種策略可能會導致不熟悉 MT 數據某些微妙之處的科學家對數據進行嚴重誤解，因為需要針對每個單獨位點糾正任意通道方向，以確保 TF 的方向一致。共同的解釋努力。
++ 此外，由於文件中的通道方向必須與 TF 的方向相匹配，因此該策略不支持在旋轉的 EMTF XML 文件中保留原始站點佈局信息，從而使任何旋轉都不可逆。
++ 最後，在不檢查所有通道的方向的情況下，科學家無法快速辨別數據是否面向正交地理或其他佈局。
++ 即使在文件中指定了磁偏角，如果已知的話，該策略也無法在旋轉文件中提供足夠的信息來了解數據是否首先是在地磁坐標中收集的。
++ 為了克服這些缺點，我們採用了調整後的 XML 模式來包含明確的旋轉信息。
++ 我們應該注意到，更新後的 XML 格式具有足夠的信息，可以明確地以任何方向存儲數據，並且還允許可逆旋轉（示例 10）。
++ 為此，我們必須重新定義文件中存儲的通道方向的含義。
++ 首先，我們在 XML <Site> 標頭中添加了一個關鍵的新元素，位於 <Location> 之後。 允許兩個選項：
+  ```xml
+  <Orientation angle_to_geographic_north="0.0">
+  orthogonal</Orientation>
+  or
+  <Orientation>sitelayout</Orientation>
+  ```
++ 在數據庫中，文件將定向為正交地理，如新 <Orientation> 元素的第一個變體所示。
++ orthogonal 和 sitelayout 是關鍵字，不支持其他關鍵字。
++ 更一般地說，與地理北方的角度當然可以是任意的。
++ 或者，如果方向是由站點佈局定義的，則它不再必須是（或假定是）正交的。
++ 即使數據以正交地理方式存檔，我們仍將始終努力按照原始站點佈局存檔頻道信息。
++ 如果數據面向站點佈局，那麼只有這樣，通道方向才會定義數據方向。
++ EMTF FCU v4.0 轉換代碼已被通用化，可以將任何旋轉恢復到站點佈局（如果需要），以及旋轉到任何其他任意正交坐標系。
++ 為了更好地匹配通道的新含義，我們現在用一個新元素 <SiteLayout> 包含它們。
++ 頻道不再隨數據旋轉，因為只要知道此信息，它們僅指示原始站點佈局。
++ 無需對頻道信息進行任何其他更改即可適應這些改進。
++ 示例通道塊現在看起來像
+  ```xml
+  <SiteLayout>
+  <InputChannels ref="site" units="m">
+  <Magneticname="Hx"orientation="0.0"x="0.0" y="0.0" z="0.0"/>
+  <Magnetic name="Hy" orientation="90.0" x="0.0" y="0.0" z="0.0"/>
+  </InputChannels>
+  <OutputChannels ref="site" units="m">
+  <Magnetic name="Hz" orientation="0.0" x="0.0" y="0.0" z="0.0"/>
+  <Electric name="Ex" orientation="0.0" x="-50.0" y="0.0" z="0.0" x2="50.0" y2="0.0" z2="0.0"/>
+  <Electric name="Ey" orientation="90.0" x="0.0" y="-40.0" z="0.0" x2="0.0" y2="40.0" z2="0.0"/>
+  </OutputChannels>
+  </SiteLayout>
+  ```
++ 附加信息（例如“地磁”）可以指定為 SiteLayout 屬性，但我們選擇不提供此信息； 它可以從通道的方向中辨別出來，這提供了一種更通用的方式來記錄此信息。
++ 口頭和數字形式的信息重複會導致衝突和混亂，而不是清晰。
++ 最後，我們還添加了一個名為 <RotationInfo> 的可選描述性元素。
++ 在我們的數據歸檔實踐中，它幫助我們記錄了在數據歸檔之前我們必須克服的數據輪換方面的任何微妙之處和含糊之處。
++ 我們對 20 到 30 年前人類遺漏的人類解釋並非完美無缺。
++ 因此，對於任何關注任何特定數據站點並需要找到問題根源的人來說，這些注意事項都是重要的信息。
++ 我們的新策略是始終將 TF 旋轉為正交地理，以便在 IRIS EMTF（Kelbert 等人，2011）數據庫中存檔。
+
+#### Critical processing information
++ EM 數據處理中持續存在的模糊性之一是符號約定，即 +iωt 或 −iωt，這是在將傅立葉變換應用於時間序列時假設的。
++ 其中任何一個都是正確的，符號的選擇純粹是偏好問題。
++ 然而，這一選擇與 TF 一起記錄是至關重要的。
++ 歷史上的 EMTF 文件格式都沒有記錄假定的符號約定，這給除文件創建者之外的所有人造成了很大的混亂。
++ 事實上，在一些最常見的 EM 魯棒處理代碼中，EMTF（Egbert 和 Booker，1986）和 BIRRP（Chave 等人，1987）假設 +iωt，而 Larsen 等人。 (1996) 使用 -iωt 假設。
++ 我們允許我們的ProcessingInfo元素根據需要盡可能詳細，可選地包括有關遠程參考站點和處理軟件的完整信息。
++ 然而，SignConvention、ProcessedBy 和ProcessingSoftware 被視為關鍵信息，因此包含在清單3 中。
++ 最小處理細節的示例如下：
+```xml
+<ProcessingInfo>
+  <SignConvention>exp(+ i\omega t)</SignConvention>
+  <RemoteRef type="Robust Remote Reference"/>
+  <ProcessedBy>Gary Egbert and Prasanta Patro </ProcessedBy>
+  <ProcessingSoftware>
+    <Name>EMTF</Name>
+    <LastMod>1998-03-24</LastMod>
+    <Author>Gary Egbert</Author>
+  </ProcessingSoftware>
+</ProcessingInfo>
+```
