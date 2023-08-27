@@ -295,3 +295,22 @@
 
 #### Computation of the full error covariances from cross-power spectra data
 + 考慮傳統的線性回歸模型
+
+$$  
+Y=Xb+\epsilon
+$$  
+
++ X 和 Y 是兩組觀測值們。
++ b是未知
++ epsilon是誤差估計
++ 這樣的狀況下，要估計b(代數符號為帶帽子b)估計公式為:
+
+$$  
+\hat{b}=\left(X^{\ast}X\right)^{-1}X^{\ast}Y  
+$$  
+
++ 逆信號功率矩陣S定義為:
+
+$$  
+S=\left(X^{\ast}X\right)^{-1}
+$$ 
