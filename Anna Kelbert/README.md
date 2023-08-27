@@ -349,3 +349,9 @@ $$
 $$  
 N=\hat{\sigma}_{\nu}^{2}Y^{\ast}\left(I-P\right)Y
 $$  
+
++ 標量誤差方差估計因子(scalar error variance estimate factor):
+
+$$  
+N=\hat{\sigma}_{\nu}^{2}Y^{\ast}\left(I-P\right)Y
+$$  
