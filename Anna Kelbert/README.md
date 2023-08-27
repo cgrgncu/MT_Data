@@ -344,6 +344,8 @@ $$
 N=\hat{\sum}=\hat{\sigma}_{\nu}^{2}\left[\left(I-P\right)Y\right]^{\ast}\left[\left(I-P\right)Y\right]
 $$  
 
++ 因為I-P是投影矩陣，所以殘差協方差估計為:
+
 $$  
 N=\hat{\sigma}_{\nu}^{2}Y^{\ast}\left(I-P\right)Y
 $$  
