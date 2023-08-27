@@ -326,3 +326,24 @@ $$
 $$  
 \hat{Y}=X\hat{b}=X\left(X^{\ast}X\right)^{-1}X^{\ast}Y 
 $$   
+
++ 在這個簡單的公式中，定義了所謂的帽子矩陣 P:
+
+$$  
+\hat{Y}=PY 
+$$   
+
+$$  
+P=X\left(X^{\ast}X\right)^{-1}X^{\ast}
+$$  
+
++ P矩陣很容易被視為投影矩陣，例如:P=P*，P^2=P。
++ 殘差協方差估計為:
+
+$$  
+N=\hat{\sum}=\hat{\sigma}_{\nu}^{2}\left[\left(I-P\right)Y\right]^{\ast}\left[\left(I-P\right)Y\right]
+$$  
+
+$$  
+N=\hat{\sigma}_{\nu}^{2}Y^{\ast}\left(I-P\right)Y
+$$  
