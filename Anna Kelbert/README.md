@@ -314,3 +314,15 @@ $$
 $$  
 S=\left(X^{\ast}X\right)^{-1}
 $$ 
+
++ 要估計誤差e(代數符號為帶帽子e)估計公式為:
+
+$$  
+\hat{e}=Y-\hat{Y}
+$$ 
+
++ 其中Y帶帽子為:
+
+$$  
+\hat{Y}=X\hat{b}=X\left(X^{\ast}X\right)^{-1}X^{\ast}Y 
+$$   
