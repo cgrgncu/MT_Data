@@ -143,18 +143,18 @@ phi為相位，單位[degrees]，
 
 
 
++ WinGlink 奇怪的計算繪圖用誤差的方式
+```matlab
+% 經過多次測試找出WinGlink計算誤差的關係式，但不知道原因。
+% 很奇怪的是XY、YX與XX、YY分成兩種不同的係數及公式。
+% 第1組「XY、YX」系列:
+RHOXYYXERR_coefficient=6.141661E-01;%不知道原因，但驗證其效果與WinGLink一致的係數。
+RHOXYERR=RHOXYYXERR_coefficient*sqrt(ZXYVAR)/abs(complex(ZXYR,ZXYI))
+RHOYXERR=RHOXYYXERR_coefficient*sqrt(ZYXVAR)/abs(complex(ZYXR,ZYXI))
+% 第2組「XX、YY」系列:
+RHOXXYYXERR_coefficient=3.772000e-01;%不知道原因，但驗證其效果與WinGLink一致的係數。
+RHOXXERR=RHOXXYYXERR_coefficient*sqrt(ZXXVAR)/sqrt(abs(complex(ZXXR,ZXXI)))
+RHOYYERR=RHOXXYYXERR_coefficient*sqrt(ZYYVAR)/sqrt(abs(complex(ZYYR,ZYYI)))
+```
 
 
-
-
-
-
-
-
-
-
-
-
-算誤差?
-RHOXYERR_coefficient=6.141661E-01;% 不知道原因，由WinGLink運算推測出來的係數
-RHOXYERR=RHOXYERR_coefficient*sqrt(ZXYVAR)/abs(complex(ZXYR,ZXYI))
