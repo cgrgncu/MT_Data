@@ -54,7 +54,8 @@
   + Alan G. Jones的軟體: LiMS Downlodable Codes Page: version 5.1
     + https://homepages.dias.ie/ajones/progs/lims/lims.html 
     + https://homepages.dias.ie/ajones/
-
+ + Github上找到的:
+   + https://resistics.io/index.htm
 ### 頻率域資料(轉移函數,Transfer Function)
 + 「Transfer Function」在訊號處理中是一個特殊意義的名詞，是一種描述系統的輸入與輸出之間關係的數學表示。
   + 比較完整的說是利用透過Z變換探討複數頻域下的輸入輸出之間的關係，寫出一個複數頻域下的數學關係式。
