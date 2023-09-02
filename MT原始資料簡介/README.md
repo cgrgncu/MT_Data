@@ -153,8 +153,8 @@ RHOXYERR=RHOXYYXERR_coefficient*sqrt(ZXYVAR)/abs(complex(ZXYR,ZXYI))
 RHOYXERR=RHOXYYXERR_coefficient*sqrt(ZYXVAR)/abs(complex(ZYXR,ZYXI))
 % 第2組「XX、YY」系列:
 RHOXXYYXERR_coefficient=3.772000e-01;%不知道原因，但驗證其效果與WinGLink一致的係數。
-RHOXXERR=RHOXXYYXERR_coefficient*sqrt(ZXXVAR)/sqrt(abs(complex(ZXXR,ZXXI)))
-RHOYYERR=RHOXXYYXERR_coefficient*sqrt(ZYYVAR)/sqrt(abs(complex(ZYYR,ZYYI)))
+RHOXXERR=RHOXXYYXERR_coefficient*(ZXXVAR)/(abs(complex(ZXXR,ZXXI).^2))
+RHOYYERR=RHOXXYYXERR_coefficient*(ZYYVAR)/(abs(complex(ZYYR,ZYYI).^2))
 ```
 
 
