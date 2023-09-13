@@ -10,12 +10,12 @@
   + 看一下有幾天的資料。
   + 做LRN03單站分析(日期是Local Time):
     + LRN03_LH_0731_0808
-    + LRN03_LH_0731_1
-    + LRN03_LH_0801_2
-    + LRN03_LH_0802_3
-    + LRN03_LH_0803_4
-    + LRN03_LH_0804_5
-    + LRN03_LH_0805_6
-    + LRN03_LH_0806_7
-    + LRN03_LH_0807_1
-    + LRN03_LH_0808_2
+    + LRN03_LH_0731w1
+    + LRN03_LH_0801w2
+    + LRN03_LH_0802w3
+    + LRN03_LH_0803w4
+    + LRN03_LH_0804w5
+    + LRN03_LH_0805w6
+    + LRN03_LH_0806w7
+    + LRN03_LH_0807w1
+    + LRN03_LH_0808w2
