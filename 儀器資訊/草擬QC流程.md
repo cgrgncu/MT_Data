@@ -11,8 +11,8 @@
   + LRN20230822B(LRN12):
   + + QC_Unedited
     + QC_All: PHSXY:1to89，PHSYX:-179to-91。
-    + QC_Day: 取用[台灣時間06~18=GPS時間22~10]，設定GPS時間OFF:10~22，PHSXY:1to89，PHSYX:-179to-91。
-    + QC_Night: 取用[台灣時間18~06=GPS時間10~22]，設定GPS時間OFF:22~10，PHSXY:1to89，PHSYX:-179to-91。
+    + QC_Day: 取用[台灣時間06to18=GPS時間22to10]，設定GPS時間OFF:10~22，PHSXY:1to89，PHSYX:-179to-91。
+    + QC_Night: 取用[台灣時間18to06=GPS時間10to22]，設定GPS時間OFF:22~10，PHSXY:1to89，PHSYX:-179to-91。
   + LRN20230815A(LRN07):
     + 單站分析:LRN20230815A(LRN07)_LH
       + 天分析(日期w星期，Local Time，星期一=w1，星期日=w7):
