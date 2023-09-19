@@ -34,3 +34,5 @@
     + LRN03_LH_0806w7
     + LRN03_LH_0807w1
     + LRN03_LH_0808w2
+   
+  + https://github.com/robertknight/Qt-Inspector
