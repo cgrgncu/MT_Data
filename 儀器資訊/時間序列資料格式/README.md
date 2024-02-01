@@ -2,6 +2,7 @@
 
 ### 時間序列檔案格式規格書
 + DAA09 - DataFormat 3rd Party v2.0 - 210915.pdf
+  + 下載位置: https://github.com/torresolmx/PhoenixGeoPy/blob/main/Docs/DAA09%20-%20DataFormat%203rd%20Party%20v2.0%20-%20210915.pdf
 
 ### 相容硬體型號  
 + MTU-8A 
