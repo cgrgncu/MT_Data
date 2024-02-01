@@ -140,3 +140,4 @@
   1. 降取樣型分段資料檔案(Decimated Segmented Files): 保留高的取樣率，儲存多個區段(segments)，每個區段都是以高取樣率連續紀錄的，但各區段之間是不連續的。
   2. 降取樣型連續資料檔案(Decimated Continuous Files): 要盡可能分析低頻的資料，需要儲存連續的時間序列。為了節省空間，將以低取樣率來儲存資料。
 + 預設情況下，會有多種取樣率的紀錄氣運行設定，取樣率較高的檔案為降取樣型分段資料檔案(Decimated Segmented Files)，取樣率最低的檔案為降取樣型連續資料檔案(Decimated Continuous Files)。
++ 這些降取樣型檔案的資料都被儲存為32位元浮點數(float32)，單位為[V]。
