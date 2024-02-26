@@ -15,6 +15,8 @@
 + EMTF
 + EMP
 + BIRRP
++ mtpy v2
+  + 原始碼: https://github.com/MTgeophysics/mtpy-v2
 + lims
   + 原始碼: https://homepages.dias.ie/ajones/progs/lims/lims.html
 + SigMT
