@@ -15,6 +15,8 @@
 + EMTF
 + EMP
 + BIRRP
++ aurora
+  + 原始碼: https://github.com/simpeg/aurora
 + mtpy v2
   + 原始碼: https://github.com/MTgeophysics/mtpy-v2
 + lims
