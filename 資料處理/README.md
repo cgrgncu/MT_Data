@@ -26,10 +26,10 @@
   + https://github.com/torresolmx/PhoenixGeoPy
 + EMTF FCU:
   + https://code.usgs.gov/ghsc/geomag/emtf/fcu/-/tree/v4.1/f90
- 
++ 3D Grid 
     
 ### 資料處理軟體
-+ SSMT2000
++ SSMT2000 + MTEditor
 + EMPower
 + WinGlink
 + PROCMT
