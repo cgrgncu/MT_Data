@@ -12,8 +12,9 @@
 ### 資料格式
 + mt_metadata:
   + https://github.com/kujaku11/mt_metadata
-+ 12313
++ mth5
   + https://github.com/kujaku11/mth5
+
 ### 資料處理軟體
 + SSMT2000
 + EMPower
