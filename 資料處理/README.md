@@ -10,6 +10,14 @@
 
 
 ### 資料格式
++ TF:
+  + EDI (most common format, SEG format)
+  + ZMM (Egberts EMTF output)
+  + JFILE (BIRRP output)
+  + EMTFXML (Kelbert's format)
+  + AVG (Zonge output)
+
+### 資料格式軟體
 + mt_metadata:
   + https://github.com/kujaku11/mt_metadata
 + mth5
