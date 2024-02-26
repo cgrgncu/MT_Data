@@ -7,7 +7,13 @@
 ### 教科書:
 + Simpson, F., & Bahr, K. (2005). Practical magnetotellurics. Cambridge University Press.
 + Chave, A. D., & Jones, A. G. (Eds.). (2012). The magnetotelluric method: Theory and practice. Cambridge University Press.
- 
+
+
+### 資料格式
++ mt_metadata:
+  + https://github.com/kujaku11/mt_metadata
++ 12313
+  + https://github.com/kujaku11/mth5
 ### 資料處理軟體
 + SSMT2000
 + EMPower
