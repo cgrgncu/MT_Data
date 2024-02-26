@@ -14,14 +14,19 @@
   + https://github.com/kujaku11/mt_metadata
 + mth5
   + https://github.com/kujaku11/mth5
-
++ PhoenixGeoPy
+  + https://github.com/torresolmx/PhoenixGeoPy
+ 
+    
 ### 資料處理軟體
 + SSMT2000
 + EMPower
 + WinGlink
 + EMTF
+  + 方法: M-estimator
 + EMP
 + BIRRP
+  + 方法: bounded influence methods
 + aurora
   + 原始碼: https://github.com/simpeg/aurora
 + mtpy v2
@@ -34,3 +39,4 @@
 + Razorback
   + 原始碼: https://github.com/BRGM/razorback
   + 論文: Smaï, F., & Wawrzyniak, P. (2020). Razorback, an open source Python library for robust processing of magnetotelluric data. Frontiers in Earth Science, 8, 296.
+  + 方法: M-estimator and bounded influence methods and multiple remote reference.
