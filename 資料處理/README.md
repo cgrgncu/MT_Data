@@ -9,9 +9,8 @@
 + Chave, A. D., & Jones, A. G. (Eds.). (2012). The magnetotelluric method: Theory and practice. Cambridge University Press.
 
 ### 路易士·卡尼亞德(Louis Cagniard)
-
++ Cagniard Imdeance
 Zxy=Ex/Hy
-
 Zyx=Ey/Hx
 
 ### 資料格式
