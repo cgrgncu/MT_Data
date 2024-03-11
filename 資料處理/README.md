@@ -10,6 +10,10 @@
 
 ### 路易士·卡尼亞德(Louis Cagniard)
 
+Zxy=Ex/Hy
+
+Zyx=Ey/Hx
+
 ### 資料格式
 + TF:
   + EDI (most common format, SEG format)
