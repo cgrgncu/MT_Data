@@ -8,6 +8,7 @@
 + Simpson, F., & Bahr, K. (2005). Practical magnetotellurics. Cambridge University Press.
 + Chave, A. D., & Jones, A. G. (Eds.). (2012). The magnetotelluric method: Theory and practice. Cambridge University Press.
 
+### 路易士·卡尼亞德(Louis Cagniard)
 
 ### 資料格式
 + TF:
