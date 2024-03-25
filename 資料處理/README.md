@@ -9,6 +9,7 @@
 + Chave, A. D., & Jones, A. G. (Eds.). (2012). The magnetotelluric method: Theory and practice. Cambridge University Press.
 
 ### 路易士·卡尼亞德(Louis Cagniard)
++ 卡尼亞德博士發表了大地電磁法原理與基礎。該文章承認了其他學者(俄國、日本)的獨立研究
 + Cagniard Imdeance
 Zxy=Ex/Hy
 Zyx=Ey/Hx
