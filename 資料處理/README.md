@@ -8,12 +8,20 @@
 + Simpson, F., & Bahr, K. (2005). Practical magnetotellurics. Cambridge University Press.
 + Chave, A. D., & Jones, A. G. (Eds.). (2012). The magnetotelluric method: Theory and practice. Cambridge University Press.
 
-### 路易士·卡尼亞德(Louis Cagniard)
+### 1953 路易士·卡尼亞德(Louis Cagniard)
 + 卡尼亞德博士發表了大地電磁法原理與基礎。該文章承認了其他學者(俄國、日本)的獨立研究
 + Cagniard Imdeance
 Zxy=Ex/Hy
 Zyx=Ey/Hx
 
+### 1967 Switf PHD 論文
++ 第一章:
+  + 1.2章進行過去研究回顧
+    + 1953年 Cagniard發表MT方法，探討水平地層。
+    + 1954年 Wait提到Cagniard研究在集膚深度的某些條件內才有效。
+    + 1960年 許多人指出非等向性、非均質的地層，阻抗為張量。例如: 1960 Cantwell
+    + 
++ 第二章:
 ### 資料格式
 + TF:
   + EDI (most common format, SEG format)
