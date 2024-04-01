@@ -40,6 +40,11 @@ Zyx=Ey/Hx
     ```
     Note  The MATLAB convention is to use a negative j for the fft function. This is an engineering convention; physics and pure mathematics typically use a positive j.
     ```
+    ```    
+    REF: https://www.mathworks.com/help/signal/ug/discrete-fourier-transform.html
+    REF2: https://www.mathworks.com/help/matlab/ref/fft.html
+    REF3: https://www.fftw.org/fftw2_doc/fftw_3.html
+    ```
 ### 資料格式
 + TF:
   + EDI (most common format, SEG format)
