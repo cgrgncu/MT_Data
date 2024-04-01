@@ -16,12 +16,16 @@ Zyx=Ey/Hx
 
 ### 1967 Switf PHD 論文
 + 第一章:
-  + 1.2章進行過去研究回顧
-    + 1953年 Cagniard發表MT方法，探討水平地層。
-    + 1954年 Wait提到Cagniard研究在集膚深度的某些條件內才有效。
-    + 1960年 許多人指出非等向性、非均質的地層，阻抗為張量。例如: 1960 Cantwell
-    + page6提到電場極化這個名詞
++ 第1.2章進行過去研究回顧
+  + 1953年 Cagniard發表MT方法，探討水平地層。
+  + 1954年 Wait提到Cagniard研究在集膚深度的某些條件內才有效。
+  + 1960年 許多人指出非等向性、非均質的地層，阻抗為張量。例如: 1960 Cantwell
+  + page6提到電場極化這個名詞
 + 第二章:
+  + The magnetotelluric method utilizes the boundary conditions forced on the electric and magnetic fields when an electromagnetic wave propagating through air interacts with the earth's surface. 
+    ```  
+    大地電磁方法利用當通過空氣傳播的電磁波與地球表面相互作用時施加在電場和磁場上的邊界條件。  
+    ``` 
 ### 資料格式
 + TF:
   + EDI (most common format, SEG format)
