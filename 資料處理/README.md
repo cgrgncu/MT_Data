@@ -24,8 +24,16 @@ Zyx=Ey/Hx
 + 第二章:
   + The magnetotelluric method utilizes the boundary conditions forced on the electric and magnetic fields when an electromagnetic wave propagating through air interacts with the earth's surface. 
     ```  
-    大地電磁法利用當通過空氣傳播的電磁波與地球表面相互作用時施加在電場和磁場上的邊界條件。  
-    ``` 
+    大地電磁法是利用「當通過空氣傳播的電磁波與地球表面相互作用時施加在電場和磁場上的邊界條件」。  
+    ```
+  + Whereas the incident horizontal magnetic field is roughly doubled at the surface, the electric field is strongly dependent upon the earth's conductivity structure.
+    ```
+    然而，入射水平磁場在地表處大約加倍，但電場強烈依賴地球的電導率結構。
+    ```
+  + The essential measurement is the electromagnetic impedance (the ratio of electric field over magnetic field, E/H) at the surface.
+    ```
+    主要測量目標是地表的電磁阻抗（電場與磁場的比值，E/H）。
+    ```
 ### 資料格式
 + TF:
   + EDI (most common format, SEG format)
