@@ -36,7 +36,7 @@ Zyx=Ey/Hx
     ```
 + 第2.1章 與馬克斯威爾方程組的關係
   + 定義座標系，X朝北，Y朝東，Z朝地下
-  + 符號慣例: $i^{-i{\omega}j}$  
+  + 符號慣例: $e^{-i{\omega}j}$  
     ```
     Note  The MATLAB convention is to use a negative j for the fft function. This is an engineering convention; physics and pure mathematics typically use a positive j.
     ```
