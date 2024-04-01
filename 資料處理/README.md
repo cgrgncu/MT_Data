@@ -24,7 +24,7 @@ Zyx=Ey/Hx
 + 第二章:
   + The magnetotelluric method utilizes the boundary conditions forced on the electric and magnetic fields when an electromagnetic wave propagating through air interacts with the earth's surface. 
     ```  
-    大地電磁方法利用當通過空氣傳播的電磁波與地球表面相互作用時施加在電場和磁場上的邊界條件。  
+    大地電磁法利用當通過空氣傳播的電磁波與地球表面相互作用時施加在電場和磁場上的邊界條件。  
     ``` 
 ### 資料格式
 + TF:
