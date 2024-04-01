@@ -34,6 +34,12 @@ Zyx=Ey/Hx
     ```
     主要測量目標是地表的電磁阻抗（電場與磁場的比值，E/H）。
     ```
++ 第2.1章 與馬克斯威爾方程組的關係
+  + 定義座標系，X朝北，Y朝東，Z朝地下
+  + 符號慣例:$i^{-i\omegaj}$
+    ```
+    Note  The MATLAB convention is to use a negative j for the fft function. This is an engineering convention; physics and pure mathematics typically use a positive j.
+    ```
 ### 資料格式
 + TF:
   + EDI (most common format, SEG format)
