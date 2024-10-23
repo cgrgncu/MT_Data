@@ -14,4 +14,6 @@
 
 ### 2
 + ADU-08e
-+ 
+
+### REF
++ https://manuals.geo-metronix.de/
