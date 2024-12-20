@@ -29,4 +29,4 @@
 
 ## 參考資料
 + https://manuals.geo-metronix.de/
-+ 
++ ...\MaprosSource_0.9.100000.1.55\Trunk\util\equ.pas
