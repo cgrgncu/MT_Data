@@ -1,3 +1,188 @@
+## 以範例數值說明常見數學公式(不同的慣例)：
++ 假設我們有 $N = 4$，並且給定時域信號 $x[n]$ 的值如下：
+  + $x[0] = 1, \quad x[1] = 2, \quad x[2] = 3, \quad x[3] = 4$
+### 1. 最常見慣例（傳統公式）
++ **順向 DFT（離散傅立葉變換）** 公式：  
+  + $X[k] = \sum_{n=0}^{N-1} x[n] \cdot e^{-i \cdot \frac{2\pi}{N} k n}, \quad k = 0, 1, 2, \dots, N-1$  
+  + 計算每個 $k$ 的值：  
+    + $X[0] = 1 + 2 + 3 + 4 = 10$  
+    + $X[1] = 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \frac{\pi}{2}} + 3 \cdot e^{-i \cdot \pi} + 4 \cdot e^{-i \cdot \frac{3\pi}{2}} = 1 + (-2i) + (-3) + 4i = -2 + 2i$  
+    + $X[2] = 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \pi} + 3 \cdot e^{-i \cdot 2\pi} + 4 \cdot e^{-i \cdot 3\pi} = 1 - 2 + 3 - 4 = -2$  
+    + $X[3] = 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \frac{3\pi}{2}} + 3 \cdot e^{-i \cdot 3\pi} + 4 \cdot e^{-i \cdot \frac{9\pi}{2}} = 1 - 2i - 3 + 4i = -2 + 2i$
+  + 所以， $X = [10, -2+2i, -2, -2+2i]$。
++ **逆向 IDFT（逆離散傅立葉變換）** 公式：
+  + $x[n] = \frac{1}{N} \sum_{k=0}^{N-1} X[k] \cdot e^{i \cdot \frac{2\pi}{N} k n}, \quad n = 0, 1, 2, \dots, N-1$  
+  + 計算每個 $n$ 的值：  
+    + $x[0] = \frac{1}{4} \left( 10 + (-2-2i) + (-2) + (2+2i) \right) = \frac{1}{4} \left( 10 - 2 - 2 + 2 \right) = \frac{8}{4} = 2$  
+    + $x[1] = \frac{1}{4} \left( 10 + (-2-2i) \cdot e^{i \cdot \frac{\pi}{2}} + (-2) \cdot e^{i \cdot \pi} + (2+2i) \cdot e^{i \cdot \frac{3\pi}{2}} \right) = 2$  
+    + $x[2] = \frac{1}{4} \left( 10 + (-2-2i) \cdot e^{i \cdot \frac{\pi}{2}} + (-2) \cdot e^{i \cdot \pi} + (2+2i) \cdot e^{i \cdot \frac{3\pi}{2}} \right) = 3$
+    + $x[3] = \frac{1}{4} \left( 10 + (-2-2i) \cdot e^{i \cdot \frac{\pi}{2}} + (-2) \cdot e^{i \cdot \pi} + (2+2i) \cdot e^{i \cdot \frac{3\pi}{2}} \right) = 4$
+  + 結果是 $x = [2, 2, 3, 4]$。
+
+
+# DFT 與 IDFT 範例計算
+
+我們將以序列 \( x = [1, 2, 3, 4] \) 為例，展示 **離散傅立葉變換 (DFT)** 和 **離散傅立葉反變換 (IDFT)** 的計算過程。
+
+## 1. 離散傅立葉變換 (DFT)
+
+對於序列 \( x = [1, 2, 3, 4] \)，DFT 的公式為：
+
+\[
+X_k = \sum_{n=0}^{N-1} x_n \cdot e^{-j \frac{2\pi}{N} k n}, \quad k = 0, 1, \dots, N-1
+\]
+
+其中，\( N = 4 \) 是序列長度，\( x_n \) 是原始序列的第 \( n \) 個元素，\( X_k \) 是變換後的頻域序列。
+
+### 計算 \( X_0 \)
+
+\[
+X_0 = 1 \cdot e^{-j 2\pi \cdot 0 \cdot 0 / 4} + 2 \cdot e^{-j 2\pi \cdot 0 \cdot 1 / 4} + 3 \cdot e^{-j 2\pi \cdot 0 \cdot 2 / 4} + 4 \cdot e^{-j 2\pi \cdot 0 \cdot 3 / 4}
+\]
+\[
+X_0 = 1 + 2 + 3 + 4 = 10
+\]
+
+### 計算 \( X_1 \)
+
+\[
+X_1 = 1 \cdot e^{-j 2\pi \cdot 1 \cdot 0 / 4} + 2 \cdot e^{-j 2\pi \cdot 1 \cdot 1 / 4} + 3 \cdot e^{-j 2\pi \cdot 1 \cdot 2 / 4} + 4 \cdot e^{-j 2\pi \cdot 1 \cdot 3 / 4}
+\]
+\[
+X_1 = 1 + 2 \cdot e^{-j \pi/2} + 3 \cdot e^{-j \pi} + 4 \cdot e^{-j 3\pi/2}
+\]
+\[
+X_1 = 1 + 2(-j) + 3(-1) + 4(j)
+\]
+\[
+X_1 = 1 - 3 + (-2j + 4j) = -2 + 2j
+\]
+
+### 計算 \( X_2 \)
+
+\[
+X_2 = 1 \cdot e^{-j 2\pi \cdot 2 \cdot 0 / 4} + 2 \cdot e^{-j 2\pi \cdot 2 \cdot 1 / 4} + 3 \cdot e^{-j 2\pi \cdot 2 \cdot 2 / 4} + 4 \cdot e^{-j 2\pi \cdot 2 \cdot 3 / 4}
+\]
+\[
+X_2 = 1 + 2 \cdot e^{-j \pi} + 3 \cdot e^{-j 2\pi} + 4 \cdot e^{-j 3\pi}
+\]
+\[
+X_2 = 1 + 2(-1) + 3(1) + 4(-1)
+\]
+\[
+X_2 = 1 - 2 + 3 - 4 = -2
+\]
+
+### 計算 \( X_3 \)
+
+\[
+X_3 = 1 \cdot e^{-j 2\pi \cdot 3 \cdot 0 / 4} + 2 \cdot e^{-j 2\pi \cdot 3 \cdot 1 / 4} + 3 \cdot e^{-j 2\pi \cdot 3 \cdot 2 / 4} + 4 \cdot e^{-j 2\pi \cdot 3 \cdot 3 / 4}
+\]
+\[
+X_3 = 1 + 2 \cdot e^{-j 3\pi/2} + 3 \cdot e^{-j 3\pi} + 4 \cdot e^{-j 9\pi/2}
+\]
+\[
+X_3 = 1 + 2(j) + 3(-1) + 4(-j)
+\]
+\[
+X_3 = 1 - 3 + (2j - 4j) = -2 - 2j
+\]
+
+### 最終結果：DFT
+
+因此，對於序列 \( x = [1, 2, 3, 4] \)，其 DFT 為：
+
+\[
+X = [X_0, X_1, X_2, X_3] = [10, -2 + 2j, -2, -2 - 2j]
+\]
+
+---
+
+## 2. 離散傅立葉反變換 (IDFT)
+
+離散傅立葉反變換（IDFT）的公式為：
+
+\[
+x_n = \frac{1}{N} \sum_{k=0}^{N-1} X_k \cdot e^{j \frac{2\pi}{N} k n}, \quad n = 0, 1, \dots, N-1
+\]
+
+我們現在從 \( X = [10, -2 + 2j, -2, -2 - 2j] \) 恢復原始序列 \( x \)。
+
+### 計算 \( x_0 \)
+
+\[
+x_0 = \frac{1}{4} \left( 10 \cdot e^{j 2\pi \cdot 0 \cdot 0 / 4} + (-2 + 2j) \cdot e^{j 2\pi \cdot 0 \cdot 1 / 4} + (-2) \cdot e^{j 2\pi \cdot 0 \cdot 2 / 4} + (-2 - 2j) \cdot e^{j 2\pi \cdot 0 \cdot 3 / 4} \right)
+\]
+\[
+x_0 = \frac{1}{4} \left( 10 + (-2 + 2j) + (-2) + (-2 - 2j) \right)
+\]
+\[
+x_0 = \frac{1}{4} \cdot 10 = 1
+\]
+
+### 計算 \( x_1 \)
+
+\[
+x_1 = \frac{1}{4} \left( 10 \cdot e^{j 2\pi \cdot 1 \cdot 1 / 4} + (-2 + 2j) \cdot e^{j 2\pi \cdot 1 \cdot 2 / 4} + (-2) \cdot e^{j 2\pi \cdot 1 \cdot 3 / 4} + (-2 - 2j) \cdot e^{j 2\pi \cdot 1 \cdot 4 / 4} \right)
+\]
+\[
+x_1 = \frac{1}{4} \left( 10 \cdot e^{j \pi/2} + (-2 + 2j) \cdot e^{j \pi} + (-2) \cdot e^{j 3\pi/2} + (-2 - 2j) \cdot e^{j 2\pi} \right)
+\]
+\[
+x_1 = \frac{1}{4} \left( 10(j) + (-2 + 2j)(-1) + (-2)(-j) + (-2 - 2j)(1) \right)
+\]
+\[
+x_1 = \frac{1}{4} \left( 10j + 2 - 2j + 2j - 2 - 2j \right)
+\]
+\[
+x_1 = \frac{1}{4} \cdot 2 = 2
+\]
+
+### 計算 \( x_2 \)
+
+\[
+x_2 = \frac{1}{4} \left( 10 \cdot e^{j 2\pi \cdot 2 \cdot 2 / 4} + (-2 + 2j) \cdot e^{j 2\pi \cdot 2 \cdot 3 / 4} + (-2) \cdot e^{j 2\pi \cdot 2 \cdot 4 / 4} + (-2 - 2j) \cdot e^{j 2\pi \cdot 2 \cdot 5 / 4} \right)
+\]
+\[
+x_2 = \frac{1}{4} \left( 10 + (-2 + 2j) + (-2) + (-2 - 2j) \right)
+\]
+\[
+x_2 = \frac{1}{4} \cdot (-2) = -2
+\]
+
+### 計算 \( x_3 \)
+
+\[
+x_3 = \frac{1}{4} \left( 10 \cdot e^{j 2\pi \cdot 3 \cdot 3 / 4} + (-2 + 2j) \cdot e^{j 2\pi \cdot 3 \cdot 4 / 4} + (-2) \cdot e^{j 2\pi \cdot 3 \cdot 5 / 4} + (-2 - 2j) \cdot e^{j 2\pi \cdot 3 \cdot 6 / 4} \right)
+\]
+\[
+x_3 = \frac{1}{4} \left( 10 - 2 + 2j - 2 - 2j \right)
+\]
+\[
+x_3 = \frac{1}{4} \cdot 10 = 4
+\]
+
+### 最終結果：IDFT
+
+因此，從 DFT 的反變換恢復回來的序列是：
+
+\[
+x = [1, 2, 3, 4]
+\]
+
+這與原始序列一致，表明計算正確。
+
+---
+
+## 小結
+
+1. **DFT**: \( X = [10, -2 + 2j, -2, -2 - 2j] \)
+2. **IDFT**: \( x = [1, 2, 3, 4] \)
+
+這樣就演示了離散傅立葉變換和反變換的計算過程！
+
+
+
 # 大地電磁法資料處理
 + 2024-02-26
 
