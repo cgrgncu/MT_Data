@@ -5,11 +5,11 @@
 + **順向 DFT（離散傅立葉變換）** 公式：  
   + $X[k] = \sum_{n=0}^{N-1} x[n] \cdot e^{-i \cdot \frac{2\pi}{N} k n}, \quad k = 0, 1, 2, \dots, N-1$  
   + 計算每個 $k$ 的值：  
-    + $X[0] = 1 + 2 + 3 + 4 = 10$  
+    + $X[0] = 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot 0} + 3 \cdot e^{-i \cdot 0} + 4 \cdot e^{-i \cdot 0} = 1 + 2 + 3 + 4 = 10$ 
     + $X[1] = 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \frac{\pi}{2}} + 3 \cdot e^{-i \cdot \pi} + 4 \cdot e^{-i \cdot \frac{3\pi}{2}} = 1 + (-2i) + (-3) + 4i = -2 + 2i$  
     + $X[2] = 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \pi} + 3 \cdot e^{-i \cdot 2\pi} + 4 \cdot e^{-i \cdot 3\pi} = 1 - 2 + 3 - 4 = -2$  
-    + $X[3] = 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \frac{3\pi}{2}} + 3 \cdot e^{-i \cdot 3\pi} + 4 \cdot e^{-i \cdot \frac{9\pi}{2}} = 1 - 2i - 3 + 4i = -2 + 2i$
-  + 所以， $X = [10, -2+2i, -2, -2+2i]$。
+    + $X[3] = 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \frac{3\pi}{2}} + 3 \cdot e^{-i \cdot 3\pi} + 4 \cdot e^{-i \cdot \frac{9\pi}{2}} = 1 + 2i - 3 + 4i = -2 - 2i$
+  + 所以， $X = [10, -2+2i, -2, -2-2i]$。
 + **逆向 IDFT（逆離散傅立葉變換）** 公式：
   + $x[n] = \frac{1}{N} \sum_{k=0}^{N-1} X[k] \cdot e^{i \cdot \frac{2\pi}{N} k n}, \quad n = 0, 1, 2, \dots, N-1$  
   + 計算每個 $n$ 的值：  
