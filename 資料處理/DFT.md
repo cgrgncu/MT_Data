@@ -134,8 +134,8 @@
     + $A[0] = 1 \cdot e^{i \cdot 0} + 2 \cdot e^{i \cdot 0} + 3 \cdot e^{i \cdot 0} + 4 \cdot e^{i \cdot 0} = 1 + 2 + 3 + 4 = 10$ 
     + $A[1] = 1 \cdot e^{i \cdot 0} + 2 \cdot e^{i \cdot \frac{\pi}{2}} + 3 \cdot e^{i \cdot \pi} + 4 \cdot e^{i \cdot \frac{3\pi}{2}} = 1 + 2i + (-3) + (-4i) = -2 - 2i$  
     + $A[2] = 1 \cdot e^{i \cdot 0} + 2 \cdot e^{i \cdot \pi} + 3 \cdot e^{i \cdot 2\pi} + 4 \cdot e^{i \cdot 3\pi} = 1 - 2 + 3 - 4 = -2$  
-    + $A[3] = 1 \cdot e^{i \cdot 0} + 2 \cdot e^{i \cdot \frac{3\pi}{2}} + 3 \cdot e^{i \cdot 3\pi} + 4 \cdot e^{i \cdot \frac{9\pi}{2}} = 1 + 2i - 3 + 4i = -2 - 2i$
-  + 所以， $X = [10, -2+2i, -2, -2-2i]$。
+    + $A[3] = 1 \cdot e^{i \cdot 0} + 2 \cdot e^{i \cdot \frac{3\pi}{2}} + 3 \cdot e^{i \cdot 3\pi} + 4 \cdot e^{i \cdot \frac{9\pi}{2}} = 1 + (-2i) - 3 + 4i = -2 + 2i$
+  + 所以， $A = [10, -2-2i, -2, -2+2i]$。
 
 
 + 為了與傳統公式作區別，調整 $x[n]$ 為 $a[n]$ ， $X[k]$ 為 $A[k]$  。
