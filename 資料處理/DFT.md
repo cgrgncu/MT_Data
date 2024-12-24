@@ -103,6 +103,7 @@
 >   + 逆向使用 $e^{i \cdot \frac{2\pi}{N} k n}$。  
 
 ## 以範例數值說明常見數學公式(不同的慣例)：
+
 ### 1. 最常見慣例（傳統公式）
 + 假設我們有 $N = 4$，並且給定時域信號 $x[n]$ 的值如下：
   + $x[0] = 1, \quad x[1] = 2, \quad x[2] = 3, \quad x[3] = 4$
@@ -122,3 +123,31 @@
     + $x[2] = \frac{1}{4} \left( 10 \cdot e^{i \cdot 0} + (-2+2i) \cdot e^{i \cdot \pi} + (-2) \cdot e^{i \cdot 2 \pi} + (-2-2i) \cdot e^{i \cdot 3 \pi} \right) = \frac{1}{4} \left( 10 + (-2+2i) (-1) + (-2) (1) + (-2-2i) (-1) \right) = \frac{1}{4} \left( 10 + (2-2i) + (-2) + (2+2i) \right) = \frac{12}{4} = 3$  
     + $x[3] = \frac{1}{4} \left( 10 \cdot e^{i \cdot 0} + (-2+2i) \cdot e^{i \cdot \frac{3 \pi}{2}} + (-2) \cdot e^{i \cdot 3 \pi} + (-2-2i) \cdot e^{i \cdot \frac{9\pi}{2}} \right) = \frac{1}{4} \left( 10 + (-2+2i) (-i) + (-2) (-1) + (-2-2i) (i) \right) = \frac{1}{4} \left( 10 + (2+2i) + 2 + (2-2i) \right) = \frac{16}{4} = 4$  
   + 結果是 $x = [1, 2, 3, 4]$。
+
+
+### 2. 第二常見的慣例
++ 假設我們有 $N = 4$，並且給定時域信號 $a[n]$ 的值如下：
+  + $a[0] = 1, \quad a[1] = 2, \quad a[2] = 3, \quad a[3] = 4$
++ **順向 DFT（離散傅立葉變換）** 公式：  
+  + $A[k] = \sum_{n=0}^{N-1} a[n] \cdot e^{i \cdot \frac{2\pi}{N} k n}, \quad k = 0, 1, 2, \dots, N-1$  
+  + 計算每個 $k$ 的值：  
+    + $A[0] = 1 \cdot e^{i \cdot 0} + 2 \cdot e^{i \cdot 0} + 3 \cdot e^{i \cdot 0} + 4 \cdot e^{i \cdot 0} = 1 + 2 + 3 + 4 = 10$ 
+    + $A[1] = 1 \cdot e^{i \cdot 0} + 2 \cdot e^{i \cdot \frac{\pi}{2}} + 3 \cdot e^{i \cdot \pi} + 4 \cdot e^{i \cdot \frac{3\pi}{2}} = 1 + 2i + (-3) + (-4i) = -2 - 2i$  
+    + $A[2] = 1 \cdot e^{i \cdot 0} + 2 \cdot e^{i \cdot \pi} + 3 \cdot e^{i \cdot 2\pi} + 4 \cdot e^{i \cdot 3\pi} = 1 - 2 + 3 - 4 = -2$  
+    + $A[3] = 1 \cdot e^{i \cdot 0} + 2 \cdot e^{i \cdot \frac{3\pi}{2}} + 3 \cdot e^{i \cdot 3\pi} + 4 \cdot e^{i \cdot \frac{9\pi}{2}} = 1 + 2i - 3 + 4i = -2 - 2i$
+  + 所以， $X = [10, -2+2i, -2, -2-2i]$。
+
+
++ 為了與傳統公式作區別，調整 $x[n]$ 為 $a[n]$ ， $X[k]$ 為 $A[k]$  。
++ **順向 DFT（離散傅立葉變換）** 公式：  
+  + $A[k] = \sum_{n=0}^{N-1} a[n] \cdot e^{i \cdot \frac{2\pi}{N} k n}, \quad k = 0, 1, 2, \dots, N-1$  
+  + 其中：  
+    + $a[n]$ 是時域信號的第 $n$ 個樣本， $n = 0, 1, 2, \dots, N-1$ 。  
+    + $A[k]$ 是頻域信號的第 $k$ 個頻率分量， $k = 0, 1, 2, \dots, N-1$ 。  
+    + $e^{i \cdot \frac{2\pi}{N} k n}$ 是核心運算(旋轉因子)。  
++ **逆向 IDFT（逆離散傅立葉變換）** 公式：
+  + $a[n] = \frac{1}{N} \sum_{k=0}^{N-1} A[k] \cdot e^{-i \cdot \frac{2\pi}{N} k n}, \quad n = 0, 1, 2, \dots, N-1$  
+  + 其中：  
+    + $a[n]$ 是時域信號的第 $n$ 個樣本， $n = 0, 1, 2, \dots, N-1$ 。  
+    + $A[k]$ 是頻域信號的第 $k$ 個頻率分量， $k = 0, 1, 2, \dots, N-1$ 。  
+    + $e^{-i \cdot \frac{2\pi}{N} k n}$ 是核心運算(旋轉因子)。  
