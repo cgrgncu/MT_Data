@@ -14,12 +14,11 @@
   + $x[n] = \frac{1}{N} \sum_{k=0}^{N-1} X[k] \cdot e^{i \cdot \frac{2\pi}{N} k n}, \quad n = 0, 1, 2, \dots, N-1$  
   + 計算每個 $n$ 的值：  
     + $x[0] = \frac{1}{4} \left( 10 \cdot e^{i \cdot 0} + (-2+2i) \cdot e^{i \cdot 0} + (-2) e^{i \cdot 0} + (-2-2i) e^{i \cdot 0} \right) = \frac{1}{4} \left( 10 + (-2+2i) + (-2) + (-2-2i) \right) = \frac{4}{4} = 1$  
-    + $x[1] = \frac{1}{4} \left( 10 \cdot e^{i \cdot 0} + (-2+2i) \cdot e^{i \cdot \frac{\pi}{2}} + (-2) \cdot e^{i \cdot \pi} + (2+2i) \cdot e^{i \cdot \frac{3\pi}{2}} \right) = \frac{1}{4} \left( 10 + (-2+2i) (i) + (-2) (-1) + (-2-2i) (-i) \right) = \frac{1}{4} \left( 10 + (-2-2i) + 2 + (-2+2i) \right) = \frac{8}{4} = 2$  
-    + $x[2] = \frac{1}{4} \left( 10 \cdot e^{i \cdot 0} + (-2+2i) \cdot e^{i \cdot \frac{\pi}{2}} + (-2) \cdot e^{i \cdot \pi} + (2+2i) \cdot e^{i \cdot \frac{3\pi}{2}} \right) = 3$
-    + $x[3] = \frac{1}{4} \left( 10 \cdot e^{i \cdot 0} + (-2+2i) \cdot e^{i \cdot \frac{\pi}{2}} + (-2) \cdot e^{i \cdot \pi} + (2+2i) \cdot e^{i \cdot \frac{3\pi}{2}} \right) = 4$
-  + 結果是 $x = [2, 2, 3, 4]$。
-
-
+    + $x[1] = \frac{1}{4} \left( 10 \cdot e^{i \cdot 0} + (-2+2i) \cdot e^{i \cdot \frac{\pi}{2}} + (-2) \cdot e^{i \cdot \pi} + (-2-2i) \cdot e^{i \cdot \frac{3\pi}{2}} \right) = \frac{1}{4} \left( 10 + (-2+2i) (i) + (-2) (-1) + (-2-2i) (-i) \right) = \frac{1}{4} \left( 10 + (-2-2i) + 2 + (-2-2i) \right) = \frac{8}{4} = 2$  
+    + $x[2] = \frac{1}{4} \left( 10 \cdot e^{i \cdot 0} + (-2+2i) \cdot e^{i \cdot \pi} + (-2) \cdot e^{i \cdot 2 \pi} + (-2-2i) \cdot e^{i \cdot 3 \pi} \right) = \frac{1}{4} \left( 10 + (-2+2i) (-1) + (-2) (1) + (-2-2i) (-1) \right) = \frac{1}{4} \left( 10 + (2-2i) + (-2) + (2+2i) \right) = \frac{12}{4} = 3$  
+    + $x[3] = \frac{1}{4} \left( 10 \cdot e^{i \cdot 0} + (-2+2i) \cdot e^{i \cdot \frac{3 \pi}{2}} + (-2) \cdot e^{i \cdot 3 \pi} + (-2-2i) \cdot e^{i \cdot \frac{9\pi}{2}} \right) = \frac{1}{4} \left( 10 + (-2+2i) (-i) + (-2) (-1) + (-2-2i) (i) \right) = \frac{1}{4} \left( 10 + (2+2i) + 2 + (2-2i) \right) = \frac{16}{4} = 4$  
+  + 結果是 $x = [1, 2, 3, 4]$。
+  + 
 # DFT 與 IDFT 範例計算
 
 我們將以序列 \( x = [1, 2, 3, 4] \) 為例，展示 **離散傅立葉變換 (DFT)** 和 **離散傅立葉反變換 (IDFT)** 的計算過程。
