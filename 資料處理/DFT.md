@@ -143,6 +143,6 @@
     + $a[1] = \frac{1}{4} \left( 10 \cdot e^{-i \cdot 0} + (-2-2i) \cdot e^{-i \cdot \frac{\pi}{2}} + (-2) \cdot e^{-i \cdot \pi} + (-2+2i) \cdot e^{-i \cdot \frac{3\pi}{2}} \right) = \frac{1}{4} \left( 10 + (-2-2i) (-i) + (-2) (-1) + (-2+2i) (i) \right) = \frac{1}{4} \left( 10 + (-2+2i) + 2 + (-2-2i) \right) = \frac{8}{4} = 2$  
     + $a[2] = \frac{1}{4} \left( 10 \cdot e^{-i \cdot 0} + (-2-2i) \cdot e^{-i \cdot \pi} + (-2) \cdot e^{-i \cdot 2 \pi} + (-2+2i) \cdot e^{-i \cdot 3 \pi} \right) = \frac{1}{4} \left( 10 + (-2-2i) (-1) + (-2) (1) + (-2+2i) (-1) \right) = \frac{1}{4} \left( 10 + (2+2i) + (-2) + (2-2i) \right) = \frac{12}{4} = 3$  
     + $a[3] = \frac{1}{4} \left( 10 \cdot e^{-i \cdot 0} + (-2-2i) \cdot e^{-i \cdot \frac{3 \pi}{2}} + (-2) \cdot e^{-i \cdot 3 \pi} + (-2+2i) \cdot e^{-i \cdot \frac{9\pi}{2}} \right) = \frac{1}{4} \left( 10 + (-2-2i) (i) + (-2) (-1) + (-2+2i) (-i) \right) = \frac{1}{4} \left( 10 + (2-2i) + 2 + (2+2i) \right) = \frac{16}{4} = 4$  
-  + 結果是 $x = [1, 2, 3, 4]$。
+  + 結果是 $a = [1, 2, 3, 4]$。
 
 
