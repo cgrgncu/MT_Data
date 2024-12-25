@@ -153,9 +153,9 @@
   + $B[k] = \frac{1}{\sqrt{4}} \sum_{n=0}^{N-1} b[n] \cdot e^{-i \cdot \frac{2\pi}{N} k n}, \quad k = 0, 1, 2, \dots, N-1$  
   + 計算每個 $k$ 的值：  
     + $X[0] = \frac{1}{\sqrt{4}} \left( 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot 0} + 3 \cdot e^{-i \cdot 0} + 4 \cdot e^{-i \cdot 0} \right) = \frac{1}{2} \left( 1 + 2 + 3 + 4 \right) = \frac{10}{2} = 5$ 
-    + $X[1] = \frac{1}{\sqrt{4}} \left( 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \frac{\pi}{2}} + 3 \cdot e^{-i \cdot \pi} + 4 \cdot e^{-i \cdot \frac{3\pi}{2}} \right) = \left( 1 + (-2i) + (-3) + 4i \right) = \frac{-2 + 2i}{2} = -1+i$  
-    + $X[2] = \frac{1}{\sqrt{4}} \left( 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \pi} + 3 \cdot e^{-i \cdot 2\pi} + 4 \cdot e^{-i \cdot 3\pi} \right) = \left( 1 - 2 + 3 - 4 \right) =  \frac{-2}{2} = -1$  
-    + $X[3] = \frac{1}{\sqrt{4}} \left( 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \frac{3\pi}{2}} + 3 \cdot e^{-i \cdot 3\pi} + 4 \cdot e^{-i \cdot \frac{9\pi}{2}} \right) = \left( 1 + 2i - 3 + 4i \right) = \frac{-2-2i}{2}  = -1-i$
+    + $X[1] = \frac{1}{\sqrt{4}} \left( 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \frac{\pi}{2}} + 3 \cdot e^{-i \cdot \pi} + 4 \cdot e^{-i \cdot \frac{3\pi}{2}} \right) = \frac{1}{2} \left( 1 + (-2i) + (-3) + 4i \right) = \frac{-2 + 2i}{2} = -1+i$  
+    + $X[2] = \frac{1}{\sqrt{4}} \left( 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \pi} + 3 \cdot e^{-i \cdot 2\pi} + 4 \cdot e^{-i \cdot 3\pi} \right) = \frac{1}{2} \left( 1 - 2 + 3 - 4 \right) =  \frac{-2}{2} = -1$  
+    + $X[3] = \frac{1}{\sqrt{4}} \left( 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \frac{3\pi}{2}} + 3 \cdot e^{-i \cdot 3\pi} + 4 \cdot e^{-i \cdot \frac{9\pi}{2}} \right) = \frac{1}{2} \left( 1 + 2i - 3 + 4i \right) = \frac{-2-2i}{2}  = -1-i$
   + 所以， $B = [5, -1+i, -2, -1-i]$。
 
 + 為了與傳統公式作區別，調整 $x[n]$ 為 $b[n]$ ， $X[k]$ 為 $B[k]$  。
