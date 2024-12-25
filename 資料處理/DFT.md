@@ -161,7 +161,7 @@
   + $b[n] = \frac{1}{\sqrt{N}} \sum_{k=0}^{N-1} B[k] \cdot e^{i \cdot \frac{2\pi}{N} k n}, \quad n = 0, 1, 2, \dots, N-1$  
   + 計算每個 $n$ 的值：  
     + $b[0] = \frac{1}{\sqrt{4}} \left( 5 \cdot e^{i \cdot 0} + (-1+i) \cdot e^{i \cdot 0} + (-1) e^{i \cdot 0} + (-1-i) e^{i \cdot 0} \right) = \frac{1}{2} \left( 5 + (-1+i) + (-1) + (-1-i) \right) = \frac{2}{2} = 1$  
-    + $b[1] = \frac{1}{\sqrt{4}} \left( 5 \cdot e^{i \cdot 0} + (-1+i) \cdot e^{i \cdot \frac{\pi}{2}} + (-1) \cdot e^{i \cdot \pi} + (-1-i) \cdot e^{i \cdot \frac{3\pi}{2}} \right) = \frac{1}{2} \left( 5 + (-1+i) (i) + (-1) (-1) + (-1-i) (-i) \right) = \frac{1}{2} \left( 5 + (-1-i) + 1 + (-1-i) \right) = \frac{4}{2} = 2$  
+    + $b[1] = \frac{1}{\sqrt{4}} \left( 5 \cdot e^{i \cdot 0} + (-1+i) \cdot e^{i \cdot \frac{\pi}{2}} + (-1) \cdot e^{i \cdot \pi} + (-1-i) \cdot e^{i \cdot \frac{3\pi}{2}} \right) = \frac{1}{2} \left( 5 + (-1+i) (i) + (-1) (-1) + (-1-i) (-i) \right) = \frac{1}{2} \left( 5 + (-1-i) + 1 + (-1+i) \right) = \frac{4}{2} = 2$  
     + $b[2] = \frac{1}{\sqrt{4}} \left( 5 \cdot e^{i \cdot 0} + (-1+i) \cdot e^{i \cdot \pi} + (-1) \cdot e^{i \cdot 2 \pi} + (-1-i) \cdot e^{i \cdot 3 \pi} \right) = \frac{1}{2} \left( 10 + (-2+2i) (-1) + (-2) (1) + (-2-2i) (-1) \right) = \frac{1}{4} \left( 10 + (2-2i) + (-2) + (2+2i) \right) = \frac{12}{4} = 3$  
     + $b[3] = \frac{1}{\sqrt{4}} \left( 5 \cdot e^{i \cdot 0} + (-1+i) \cdot e^{i \cdot \frac{3 \pi}{2}} + (-1) \cdot e^{i \cdot 3 \pi} + (-1-i) \cdot e^{i \cdot \frac{9\pi}{2}} \right) = \frac{1}{2} \left( 10 + (-2+2i) (-i) + (-2) (-1) + (-2-2i) (i) \right) = \frac{1}{4} \left( 10 + (2+2i) + 2 + (2-2i) \right) = \frac{16}{4} = 4$  
   + 結果是 $x = [1, 2, 3, 4]$。
