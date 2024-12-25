@@ -157,14 +157,14 @@
     + $X[2] = \frac{1}{\sqrt{4}} \left( 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \pi} + 3 \cdot e^{-i \cdot 2\pi} + 4 \cdot e^{-i \cdot 3\pi} \right) = \frac{1}{2} \left( 1 - 2 + 3 - 4 \right) =  \frac{-2}{2} = -1$  
     + $X[3] = \frac{1}{\sqrt{4}} \left( 1 \cdot e^{-i \cdot 0} + 2 \cdot e^{-i \cdot \frac{3\pi}{2}} + 3 \cdot e^{-i \cdot 3\pi} + 4 \cdot e^{-i \cdot \frac{9\pi}{2}} \right) = \frac{1}{2} \left( 1 + 2i - 3 + 4i \right) = \frac{-2-2i}{2}  = -1-i$
   + 所以， $B = [5, -1+i, -2, -1-i]$。
-
-+ 為了與傳統公式作區別，調整 $x[n]$ 為 $b[n]$ ， $X[k]$ 為 $B[k]$  。
-+ **順向 DFT（離散傅立葉變換）** 公式：  
-  + $B[k] = \frac{1}{\sqrt{N}} \sum_{n=0}^{N-1} b[n] \cdot e^{-i \cdot \frac{2\pi}{N} k n}, \quad k = 0, 1, 2, \dots, N-1$  
-  + 其中：  
-    + $b[n]$ 是時域信號的第 $n$ 個樣本， $n = 0, 1, 2, \dots, N-1$ 。  
-    + $B[k]$ 是頻域信號的第 $k$ 個頻率分量， $k = 0, 1, 2, \dots, N-1$ 。  
-    + $e^{-i \cdot \frac{2\pi}{N} k n}$ 是核心運算(旋轉因子)。  
++ **逆向 IDFT（逆離散傅立葉變換）** 公式：
+  + $b[n] = \frac{1}{\sqrt{N}} \sum_{k=0}^{N-1} B[k] \cdot e^{i \cdot \frac{2\pi}{N} k n}, \quad n = 0, 1, 2, \dots, N-1$  
+  + 計算每個 $n$ 的值：  
+    + $x[0] = \frac{1}{4} \left( 10 \cdot e^{i \cdot 0} + (-2+2i) \cdot e^{i \cdot 0} + (-2) e^{i \cdot 0} + (-2-2i) e^{i \cdot 0} \right) = \frac{1}{4} \left( 10 + (-2+2i) + (-2) + (-2-2i) \right) = \frac{4}{4} = 1$  
+    + $x[1] = \frac{1}{4} \left( 10 \cdot e^{i \cdot 0} + (-2+2i) \cdot e^{i \cdot \frac{\pi}{2}} + (-2) \cdot e^{i \cdot \pi} + (-2-2i) \cdot e^{i \cdot \frac{3\pi}{2}} \right) = \frac{1}{4} \left( 10 + (-2+2i) (i) + (-2) (-1) + (-2-2i) (-i) \right) = \frac{1}{4} \left( 10 + (-2-2i) + 2 + (-2-2i) \right) = \frac{8}{4} = 2$  
+    + $x[2] = \frac{1}{4} \left( 10 \cdot e^{i \cdot 0} + (-2+2i) \cdot e^{i \cdot \pi} + (-2) \cdot e^{i \cdot 2 \pi} + (-2-2i) \cdot e^{i \cdot 3 \pi} \right) = \frac{1}{4} \left( 10 + (-2+2i) (-1) + (-2) (1) + (-2-2i) (-1) \right) = \frac{1}{4} \left( 10 + (2-2i) + (-2) + (2+2i) \right) = \frac{12}{4} = 3$  
+    + $x[3] = \frac{1}{4} \left( 10 \cdot e^{i \cdot 0} + (-2+2i) \cdot e^{i \cdot \frac{3 \pi}{2}} + (-2) \cdot e^{i \cdot 3 \pi} + (-2-2i) \cdot e^{i \cdot \frac{9\pi}{2}} \right) = \frac{1}{4} \left( 10 + (-2+2i) (-i) + (-2) (-1) + (-2-2i) (i) \right) = \frac{1}{4} \left( 10 + (2+2i) + 2 + (2-2i) \right) = \frac{16}{4} = 4$  
+  + 結果是 $x = [1, 2, 3, 4]$。
 
 + **逆向 IDFT（逆離散傅立葉變換）** 公式：
   + $b[n] = \frac{1}{\sqrt{N}} \sum_{k=0}^{N-1} B[k] \cdot e^{i \cdot \frac{2\pi}{N} k n}, \quad n = 0, 1, 2, \dots, N-1$  
