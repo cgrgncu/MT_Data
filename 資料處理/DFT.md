@@ -164,12 +164,5 @@
     + $b[1] = \frac{1}{\sqrt{4}} \left( 5 \cdot e^{i \cdot 0} + (-1+i) \cdot e^{i \cdot \frac{\pi}{2}} + (-1) \cdot e^{i \cdot \pi} + (-1-i) \cdot e^{i \cdot \frac{3\pi}{2}} \right) = \frac{1}{2} \left( 5 + (-1+i) (i) + (-1) (-1) + (-1-i) (-i) \right) = \frac{1}{2} \left( 5 + (-1-i) + 1 + (-1+i) \right) = \frac{4}{2} = 2$  
     + $b[2] = \frac{1}{\sqrt{4}} \left( 5 \cdot e^{i \cdot 0} + (-1+i) \cdot e^{i \cdot \pi} + (-1) \cdot e^{i \cdot 2 \pi} + (-1-i) \cdot e^{i \cdot 3 \pi} \right) = \frac{1}{2} \left( 5 + (-1+i) (-1) + (-1) (1) + (-1-i) (-1) \right) = \frac{1}{4} \left( 5 + (1-i) + (-1) + (1+i) \right) = \frac{6}{2} = 3$  
     + $b[3] = \frac{1}{\sqrt{4}} \left( 5 \cdot e^{i \cdot 0} + (-1+i) \cdot e^{i \cdot \frac{3 \pi}{2}} + (-1) \cdot e^{i \cdot 3 \pi} + (-1-i) \cdot e^{i \cdot \frac{9\pi}{2}} \right) = \frac{1}{2} \left( 5 + (-1+i) (-i) + (-1) (-1) + (-1-i) (i) \right) = \frac{1}{4} \left( 5 + (1+i) + 1 + (1-i) \right) = \frac{8}{2} = 4$  
-  + 結果是 $x = [1, 2, 3, 4]$。
-
-+ **逆向 IDFT（逆離散傅立葉變換）** 公式：
-  + $b[n] = \frac{1}{\sqrt{N}} \sum_{k=0}^{N-1} B[k] \cdot e^{i \cdot \frac{2\pi}{N} k n}, \quad n = 0, 1, 2, \dots, N-1$  
-  + 其中：  
-    + $b[n]$ 是時域信號的第 $n$ 個樣本， $n = 0, 1, 2, \dots, N-1$ 。  
-    + $B[k]$ 是頻域信號的第 $k$ 個頻率分量， $k = 0, 1, 2, \dots, N-1$ 。  
-    + $e^{i \cdot \frac{2\pi}{N} k n}$ 是核心運算(旋轉因子)。  
+  + 結果是 $b = [1, 2, 3, 4]$。
 
