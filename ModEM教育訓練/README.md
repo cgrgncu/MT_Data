@@ -29,3 +29,5 @@ Q: 只支援方形網格嗎?
 + 先觀察profile的AppRes& PHS
 + 觀察Tipper
 + 觀察PT，長軸指向電性走向。提供資料品質的暗示。
++ 比較 Zonly Tonly Z+T
++ 增加了Tppper，深部構造截然不同。
