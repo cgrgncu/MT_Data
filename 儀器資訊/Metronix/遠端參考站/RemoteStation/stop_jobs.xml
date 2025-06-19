@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<stop_measurement>
+	<recording>
+		<start_time>00:00:00</start_time>
+		<stop_time>00:00:04</stop_time>
+		<start_date>2015-06-25</start_date>
+		<stop_date>2015-06-25</stop_date>
+		<target_directory>/mtdata/data</target_directory>
+		<CyclicEvent>0</CyclicEvent>
+		<Cycle>60</Cycle>
+		<Granularity>seconds</Granularity>
+	</recording>
+	<meas_indexes>0,1,2,3,4,5</meas_indexes>
+</stop_measurement>
