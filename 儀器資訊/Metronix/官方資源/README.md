@@ -4,6 +4,7 @@
 ### 裝置需求
 + 前面板SD卡須使用ext4格式 (REF:APPL001_UpdateJoblist.pdf)
   + 通常這個一直都會裝著，不會移除。
+  + 提示: 更新過程會把前面板SD卡格式化。裡面的時間序列資料請先備份出來。
 + USBDISK請使用FAT32格式 (REF:APPL001_UpdateJoblist.pdf)
   + 平常可能不會裝在上面，可以先拔下來格式化好再插上去。 
 
