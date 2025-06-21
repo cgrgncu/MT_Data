@@ -65,3 +65,9 @@
 + 可能等個約一分鐘後，用New Session進去網頁。我們沒有要改只是要看狀態。
 + 從第二個標籤頁(ADU-177)找到「System Histoary」頁面，翻閱一下，應該會有:
   + selftest result: NOK之類的紀錄，就表示做完了。
+
+
+### ADU啟用了SAMBA功能
++ 版本: 未知???
++ 主要使用PORT: 445
++ 有帳號密碼
