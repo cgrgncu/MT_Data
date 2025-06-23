@@ -79,3 +79,15 @@
 + 使用「Stop Job」頁面。
 + 使用「System Specific – Status – View Job Table」>「Clear Job Table」。這個不會停止工作，但可以清掉過多的任務，以免太多任務紀錄會影響主機運作。
 + 「System History」頁面有時候也有需要清掉，以免太多紀錄會影響主機運作。
+
+
+### 預配置外接USB儲存裝置 (pre-configured USB mass storage devices)
++ 簡化的量測操作設置
++ 可使用隨身碟、外接硬碟等。
+  + 可用格式: FAT32、EXT3...
++ 必要條件:
+  ```
+  使隨身碟根目錄下存在:
+  X:\ADUConf\
+  X:\ADUConf\ADUConf.xml
+  ```
