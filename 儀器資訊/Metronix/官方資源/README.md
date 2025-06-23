@@ -91,3 +91,5 @@
   X:\ADUConf\
   X:\ADUConf\ADUConf.xml
   ```
+  > 如果沒有X:\ADUConf\ADUConf.xml，隨身碟掛載後立刻會被退出。
+
