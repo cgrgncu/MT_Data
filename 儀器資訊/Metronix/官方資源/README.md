@@ -74,3 +74,8 @@
 + 有帳號密碼
 + 看起來多數資料夾開放讀寫權限。
 + 
+
+### 要停止量測工作應該要:
++ 使用「Stop Job」頁面。
++ 使用「System Specific – Status – View Job Table」>「Clear Job Table」。這個不會停止工作，但可以清掉過多的任務，以免太多任務紀錄會影響主機運作。
++ 「System History」頁面有時候也有需要清掉，以免太多紀錄會影響主機運作。
