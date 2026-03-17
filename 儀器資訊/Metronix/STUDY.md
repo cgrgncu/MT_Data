@@ -169,3 +169,7 @@ THz_BL_32H.ats ~10.5MB
    + edi
    + procmt
    + marpro
+   + ASCII輸出
+ + 換電池需要時間
+   + 約半小時。
+   + 
