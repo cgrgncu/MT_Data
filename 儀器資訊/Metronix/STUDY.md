@@ -162,3 +162,10 @@ THz_BL_32H.ats ~10.5MB
    + E場TS沒資料。
    + 是否允許旋轉
    + AUTOJOB介紹，改那些位置
+   + MFS07e305.TXT怎麼來的
+   + NIL001_260105_0310_r1H.aex怎麼來的
+   + birrp
+   + tracmt
+   + edi
+   + procmt
+   + marpro
